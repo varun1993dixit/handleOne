@@ -1,0 +1,379 @@
+{
+    "page":true,
+    "tagOne":"h1",
+    "tagFour":"h4",
+    "homeTitle":{
+        "title":"Welcome John"
+    },
+    "headCalendar":
+    {        
+        "title":"Upcoming Events",
+        "text":"View All Events",
+        "href":"allevents"
+    },
+    "headBulletin":
+    {
+        "tag":"h4",
+        "title":"Bulletin Board",
+        "text":"View All Bulletins",
+        "href":"allbulletins"
+    },
+    "downBtn":{
+        "text":"",
+        "href":""
+    },      
+    "sliderBar":[
+        {
+            "tagTwo":"h2",
+            "tagThree":"h3",
+            "title":"ICE",
+            "subtitle":"LONDON 2020",            
+            "gradientStart":"#510077",
+            "gradientMiddle":"#9900BC",
+            "gradientEnd":"#EA50D8",
+            "button":{
+                "text":"More Details",
+                "gradientStart":"",
+                "gradientEnd":""
+            },
+            "currentSlide":1,
+            "totalSlide":"/8"
+        },
+        {
+            "tagTwo":"h2",
+            "tagThree":"h3",
+            "title":"ICE",
+            "subtitle":"LONDON 2020",
+            "gradientStart":"#510077",
+            "gradientMiddle":"#9900BC",
+            "gradientEnd":"#EA50D8",
+            "button":{
+                "text":"More Details",
+                "gradientStart":"",
+                "gradientEnd":""
+            },
+            "currentSlide":2,
+            "totalSlide":"/8",
+            "image": {
+                "src": "banner-tab.jpg",
+                "alt": "banner"
+            }
+        },
+        {
+            "tagTwo":"h2",
+            "tagThree":"h3",
+            "title":"ICE",
+            "subtitle":"LONDON 2020",
+            "gradientStart":"#510077",
+            "gradientMiddle":"#9900BC",
+            "gradientEnd":"#EA50D8",
+            "button":{
+                "text":"More Details",
+                "gradientStart":"",
+                "gradientEnd":""
+            },
+            "currentSlide":3,
+            "totalSlide":"/8"
+        },
+        {
+            "tagTwo":"h2",
+            "tagThree":"h3",
+            "title":"ICE",
+            "subtitle":"LONDON 2020",
+            "gradientStart":"#510077",
+            "gradientMiddle":"#9900BC",
+            "gradientEnd":"#EA50D8",
+            "button":{
+                "text":"More Details",
+                "gradientStart":"",
+                "gradientEnd":""
+            },
+            "currentSlide":4,
+            "totalSlide":"/8"
+        },
+        {
+            "tagTwo":"h2",
+            "tagThree":"h3",
+            "title":"ICE",
+            "subtitle":"LONDON 2020",
+            "gradientStart":"#510077",
+            "gradientMiddle":"#9900BC",
+            "gradientEnd":"#EA50D8",
+            "button":{
+                "text":"More Details",
+                "gradientStart":"",
+                "gradientEnd":""
+            },
+            "currentSlide":5,
+            "totalSlide":"/8"
+        },
+        {
+            "tagTwo":"h2",
+            "tagThree":"h3",
+            "title":"ICE",
+            "subtitle":"LONDON 2020",
+            "gradientStart":"#510077",
+            "gradientMiddle":"#9900BC",
+            "gradientEnd":"#EA50D8",
+            "button":{
+                "text":"More Details",
+                "gradientStart":"",
+                "gradientEnd":""
+            },
+            "currentSlide":6,
+            "totalSlide":"/8"
+        },
+        {
+            "tagTwo":"h2",
+            "tagThree":"h3",
+            "title":"ICE",
+            "subtitle":"LONDON 2020",
+            "gradientStart":"#510077",
+            "gradientMiddle":"#9900BC",
+            "gradientEnd":"#EA50D8",
+            "button":{
+                "text":"More Details",
+                "gradientStart":"",
+                "gradientEnd":""
+            },
+            "currentSlide":7,
+            "totalSlide":"/8"
+        },
+        {
+            "tagTwo":"h2",
+            "tagThree":"h3",
+            "title":"ICE",
+            "subtitle":"LONDON 2020",
+            "gradientStart":"#510077",
+            "gradientMiddle":"#9900BC",
+            "gradientEnd":"#EA50D8",
+            "button":{
+                "text":"More Details",
+                "gradientStart":"",
+                "gradientEnd":""
+            },
+            "currentSlide":8,
+            "totalSlide":"/8"
+        }
+    ],
+    "teaserBox":[
+        {
+            "teaserAlt":{
+                "tagFive":"h5",
+                "title":"Games & Marketing Suite",
+                "gradientStart":"#FFBB00",
+                "gradientMiddle":"#FF3122",
+                "gradientEnd":"#DD007C",
+                "image": {
+                    "src": "teaser-alt1.png",
+                    "alt": "teaser"
+                },
+                "buttons":{
+                    "text":"View Games",
+                    "gradientStart":"",
+                    "gradientEnd":"",
+                    "link":"#"
+                }                
+            }
+        },
+        {
+            "teaserAlt":{
+                "tagFive":"h5",
+                "title":"Products",
+                "gradientStart":"#26B0B0",
+                "gradientMiddle":"#26B0B0",
+                "gradientEnd":"#26B0B0",
+                "image": {
+                    "src": "teaser-alt2.png",
+                    "alt": "teaser"
+                },
+                "buttons":{
+                    "text":"View Products",
+                    "gradientStart":"",
+                    "gradientEnd":"",
+                    "link":"#"
+                }                
+            }
+        },
+        {
+            "teaserAlt":{
+                "tagFive":"h5",
+                "title":"Promotions",
+                "gradientStart":"#FF134D",
+                "gradientMiddle":"#AC0063",
+                "gradientEnd":"#8B0071",
+                "image": {
+                    "src": "teaser-alt3.png",
+                    "alt": "teaser"
+                },
+                "buttons":{
+                    "text":"View Promotions",
+                    "gradientStart":"",
+                    "gradientEnd":"",
+                    "link":"#"
+                }                
+            }
+        },
+        {
+            "teaserAlt":{
+                "tagFive":"h5",
+                "title":"SG Analytics",
+                "gradientStart":"#00E5F8",
+                "gradientMiddle":"#7A00C0",
+                "gradientEnd":"#FF0051",
+                "image": {
+                    "src": "teaser-alt4.png",
+                    "alt": "teaser"
+                },
+                "buttons":{
+                    "text":"View SG Analytics",
+                    "gradientStart":"",
+                    "gradientEnd":"",
+                    "link":"#"
+                }                
+            }
+        },
+        {
+            "teaserAlt":{
+                "tagFive":"h5",
+                "title":"Video Gallery",
+                "gradientStart":"#EA50D8",
+                "gradientMiddle":"#9900BC",
+                "gradientEnd":"#510077",
+                "buttons":{
+                    "text":"Video Gallery",
+                    "gradientStart":"",
+                    "gradientEnd":"",
+                    "link":"#"
+                }                
+            }
+        },
+        {
+            "teaserAlt":{
+                "tagFive":"h5",
+                "title":"SG & Industry News",
+                "gradientStart":"#8ADF00",
+                "gradientMiddle":"#239926",
+                "gradientEnd":"#00435D",
+                "buttons":{
+                    "text":"View News",
+                    "gradientStart":"",
+                    "gradientEnd":"",
+                    "link":"#"
+                }                
+            }
+        }
+    ],
+    "bulletinBoardd":[
+        {
+            "bulletin":{
+                "image":{
+                    "src":"listing1.png",
+                    "alt":"bulletin"
+                },
+                "listingData":{
+                    "tagFive":"h5",
+                    "title":"Quisque mattis tellus et neque varius, porttitor ultrices dui viverra",
+                    "author":"John Smith",
+                    "dateTime":"19/02/2019 : 09:05 AM"
+                }                
+            }
+        },
+        {
+            "bulletin":{
+                "image":{
+                    "src":"listing2.png",
+                    "alt":"bulletin"
+                },
+                "listingData":{
+                    "tagFive":"h5",
+                    "title":"Nunc at neque eleifend, condimentum mauris a, rutrum quam. Nulla blandit dignissim ornare. Curabitur sed iaculis velit, vitae pulvinar risus.",
+                    "author":"John Smith",
+                    "dateTime":"19/02/2019 : 09:05 AM"
+                }                
+            }
+        },
+        {
+            "bulletin":{
+                "image":{
+                    "src":"listing3.png",
+                    "alt":"bulletin"
+                },
+                "listingData":{
+                    "tagFive":"h5",
+                    "title":"Pellentesque tincidunt metus eget semper bibendum. Nullam tempus venenatis neque, eget ultrices odio suscipit non.",
+                    "author":"John Smith",
+                    "dateTime":"19/02/2019 : 09:05 AM"
+                }                
+            }
+        },
+        {
+            "bulletin":{
+                "image":{
+                    "src":"listing1.png",
+                    "alt":"bulletin"
+                },
+                "listingData":{
+                    "tagFive":"h5",
+                    "title":"Quisque mattis tellus et neque varius, porttitor ultrices dui viverra",
+                    "author":"John Smith",
+                    "dateTime":"19/02/2019 : 09:05 AM"
+                }                
+            }
+        },
+        {
+            "bulletin":{
+                "image":{
+                    "src":"listing2.png",
+                    "alt":"bulletin"
+                },
+                "listingData":{
+                    "tagFive":"h5",
+                    "title":"Nunc at neque eleifend, condimentum mauris a, rutrum quam. Nulla blandit dignissim ornare. Curabitur sed iaculis velit, vitae pulvinar risus.",
+                    "author":"John Smith",
+                    "dateTime":"19/02/2019 : 09:05 AM"
+                }                
+            }
+        }
+    ],
+    "events":[
+        {
+            "Date":"2019-11-7",
+            "Title":"Doctor appointment at 3:25pm."
+        },
+        {
+            "Date":"2019-12-7",
+            "Title":"Doctor appointment at 3:25pm."
+        },
+        {
+            "Date":"2019-12-10",
+            "Title":"Doctor appointment at 3:25pm."
+        },
+        {
+            "Date":"2019-12-12",
+            "Title":"Doctor appointment at 3:25pm."
+        },
+        {
+            "Date":"2020-01-12",
+            "Title":"Doctor appointment at 3:25pm."
+        },
+        {
+            "Date":"2020-01-7",
+            "Title":"Doctor appointment at 3:25pm."
+        }
+    ],
+    "listingData": [
+        {
+            "title": "Quisque mattis tellus et neque varius, porttitor ultrices dui viverra",
+            "author": "Venue Name",
+            "dateTime": "19/02/2019 : 09:05 AM",
+            "tagFive": "h5"
+        },
+        {
+            "title": "Quisque mattis tellus et neque varius, porttitor ultrices dui viverra",
+            "author": "Venue Name",
+            "dateTime": "19/02/2019 : 09:05 AM",
+            "tagFive": "h5"
+        }
+    ]
+}

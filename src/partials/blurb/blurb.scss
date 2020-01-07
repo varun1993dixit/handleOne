@@ -1,0 +1,80 @@
+.blurb{
+    background-color: $colour-white;
+    border:1px solid $colour-grey-dark;
+    padding: $spacing-internal;
+    .heading-four{
+        margin-bottom: $spacing-internal;
+    }
+    p{
+        @include set-font-size(14);
+        line-height: $line-height-large;
+    }
+    .link-icon{
+        @include set-font-size(14);
+        cursor: pointer;
+        span{
+            pointer-events: none;
+        }
+        i{
+            pointer-events: none;
+        }
+    }
+        .link-icon__more{
+            > span{
+                &:first-child{
+                    display: inline-block;
+                }
+                &:last-child{
+                    display: none;
+                }
+            }
+        }
+}
+.blurb__content{
+    margin-bottom: $spacing-mobile*2;
+    max-height: 286px;
+    overflow: hidden;
+    &.active{
+        max-height: inherit;
+        + .link-icon__more{
+            > span{
+                &:first-child{
+                    display: none;
+                }
+                &:last-child{
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+@media all and (min-width:$screen-sm){
+    .blurb{
+        padding-top: $spacing-tablet*2;
+    }
+    .blurb__content{
+        margin-bottom: $spacing-internal/2;
+        max-height: 118px;
+    }
+}
+@media all and (min-width:$screen-md){
+    .blurb{
+        .heading-four{
+            margin-bottom: $spacing-large;
+        }
+    }
+    .blurb__content{
+        max-height: 113px;
+    }
+}
+@media all and (min-width:$screen-lg){
+    .blurb{
+        padding: $spacing-large;
+    }
+}
+@media all and (min-width:$screen-xl){
+    .blurb__content{
+        margin-bottom: $spacing-internal;
+        max-height: 128px;
+    }
+}

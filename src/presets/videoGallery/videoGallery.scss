@@ -1,0 +1,29 @@
+.slider-wrap--gallery{
+    .teaser__detail{
+        .heading-six{
+            font-weight: $font-weight-medium;
+        }
+        span{
+            @include set-font-size(13);
+        }
+    }
+    &:nth-child(3){
+        padding-bottom: $spacing-internal;
+    }
+}
+@media all and (min-width:$screen-sm){
+    .slider-wrap--gallery{
+        &:nth-child(3){
+            padding-bottom: $spacing-internal*2;
+        }
+    }
+}
+@media all and (min-width:$screen-md){
+    .slider-wrap--gallery{
+        .teaser__detail{
+            .heading-six{
+                margin-bottom: $spacing-internal;
+            }
+        }       
+    }    
+}

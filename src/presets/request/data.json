@@ -1,0 +1,214 @@
+{
+    "page":true,
+    "banner":{
+        "alt":"banner",
+        "src": "banner-promotion.jpg"
+    },
+    "titleRequest":"Machine Tournament",
+    "tagOne":"h1",
+    "warning":{
+        "icon":"las la-exclamation-triangle",
+        "text":"You must submit your request form before 11/10/2019 to be able to opt into this promotion."
+    },
+    "summaryTitle":"Promotion Details",
+    "tagFour":"h4",
+    "summaryDetail":[
+        {
+            "textLeft":"Promotion Start / End Dates",
+            "textRight":"27/09/2019 - 28/09/2019"
+        },
+        {
+            "textLeft":"Games",
+            "textRight":"Golden Castle"
+        },
+        {
+            "textLeft":"Starting Credit",
+            "textRight":"£50"
+        },
+        {
+            "textLeft":"Duration",
+            "textRight":"5 Minutes"
+        },
+        {
+            "textLeft":"Finishing Place award validity dates",
+            "textRight":"Valid from 2/09/2019 for 14 days"
+        },
+        {
+            "textLeft":"Game vouchers valid on",
+            "textRight":"All Slots"
+        },
+        {
+            "textLeft":"Voucher Type",
+            "textRight":"Free Play Non-Cashable"
+        }
+        
+    ],
+    "subtitle": {
+        "subTitle": "Participating Shops",
+        "colour": "#7CD605",
+        "tagFour":"h4"
+    },
+    "tableData":[
+        {
+            "thOption":"Opt In",
+            "checkbox":{
+                "text": "",
+                "para":""
+            },
+            "thShop":"Shop Name/ID",
+            "shopState":"",
+            "shopPin":"",
+            "thCustomer":"Customer",
+            "customerBrand":"",
+            "thType":"Terminal Type",            
+            "selectType": {
+                "label": "",
+                "placeholder": "",
+                "type": "text",
+                "message": "",
+                "options": [
+                    "",
+                    "Type1",
+                    "Type2"
+                ],
+                "icon": "la la-angle-down"
+            },
+            "thValue":"Finishing Place Award Value",
+            "selectValue": {
+                "label": "",
+                "placeholder": "",
+                "type": "text",
+                "message": "",
+                "options": [
+                    "",
+                    "value1",
+                    "value2"
+                ],
+                "icon": "la la-angle-down"
+            }
+            
+        },
+        {
+            "thOption":"Opt In",
+            "checkbox":{
+                "text": "",
+                "para":""
+            },
+            "thShop":"Shop Name/ID",
+            "shopState":"Manchester",
+            "shopPin":"200011",
+            "thCustomer":"Customer",
+            "customerBrand":"SG GAMING",
+            "thType":"Terminal Type",            
+            "selectType": {
+                "label": "",
+                "placeholder": "",
+                "type": "text",
+                "message": "",
+                "options": [
+                    "",
+                    "Type1",
+                    "Type2"
+                ],
+                "icon": "la la-angle-down"
+            },
+            "thValue":"Finishing Place Award Value",
+            "selectValue": {
+                "label": "",
+                "placeholder": "",
+                "type": "text",
+                "message": "",
+                "options": [
+                    "",
+                    "value1",
+                    "value2"
+                ],
+                "icon": "la la-angle-down"
+            }
+            
+        },
+        {
+            "thOption":"Opt In",
+            "checkbox":{
+                "text": "",
+                "para":""
+            },
+            "thShop":"Shop Name/ID",
+            "shopState":"London",
+            "shopPin":"200010",
+            "thCustomer":"Customer",
+            "customerBrand":"SG GAMING",
+            "thType":"Terminal Type",            
+            "selectType": {
+                "label": "",
+                "placeholder": "",
+                "type": "text",
+                "message": "",
+                "options": [
+                    "",
+                    "Type1",
+                    "Type2"
+                ],
+                "icon": "la la-angle-down"
+            },
+            "thValue":"Finishing Place Award Value",
+            "selectValue": {
+                "label": "",
+                "placeholder": "",
+                "type": "text",
+                "message": "",
+                "options": [
+                    "",
+                    "value1",
+                    "value2"
+                ],
+                "icon": "la la-angle-down"
+            }
+            
+        },
+        {
+            "thOption":"Opt In",
+            "checkbox":{
+                "text": "",
+                "para":""
+            },
+            "thShop":"Shop Name/ID",
+            "shopState":"Birmingham",
+            "shopPin":"200009",
+            "thCustomer":"Customer",
+            "customerBrand":"SG GAMING",
+            "thType":"Terminal Type",            
+            "selectType": {
+                "label": "",
+                "placeholder": "",
+                "type": "text",
+                "message": "",
+                "options": [
+                    "",
+                    "Type1",
+                    "Type2"
+                ],
+                "icon": "la la-angle-down"
+            },
+            "thValue":"Finishing Place Award Value",
+            "selectValue": {
+                "label": "",
+                "placeholder": "",
+                "type": "text",
+                "message": "",
+                "options": [
+                    "",
+                    "value1",
+                    "value2"
+                ],
+                "icon": "la la-angle-down"
+            }
+            
+        }
+    ],
+    "button": {
+            "text": "Submit Promotion Request",
+            "link":"#"
+        }
+    
+}

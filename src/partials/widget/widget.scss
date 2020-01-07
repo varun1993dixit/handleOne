@@ -1,0 +1,26 @@
+.widget{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100vw;
+    
+    height: 100vh;   
+    
+    background-color: $colour-white;
+    z-index: 1111;
+    @include align-items(center);
+    @include justify-content(center);
+    border: 1px solid $colour-grey-dark;
+    display: none;
+    iframe{
+        width: 87%;
+        max-width: 1281px;
+        height: 80%;
+        max-height: 721px; 
+    }
+    &.active{
+        @include display-flex();
+    }
+}

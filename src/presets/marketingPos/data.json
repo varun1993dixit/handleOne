@@ -1,0 +1,92 @@
+{
+    "page":"true",
+    "tagOne":"h1",
+    "titles":{
+        "title":"Marketing POS"
+    },
+    "buttonss": {
+        "text": "Download All",
+        "link": "#"
+    },
+    "teaser": [                
+        {
+            "subtitle": {
+                "subTitle": "TV Screen 1024x 768 (JPEG)",
+                "colour": "#7CD605",
+                "tagFour":"h4"
+            },
+            "teaserList":[
+                {
+                    "title": "artworkname.pdf",
+                    "href": "#",
+                    "date": "",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "fortune.jpg",
+                        "alt": "teaser"
+                    }
+                },
+                {
+                    "title": "artworkname.pdf",
+                    "href": "#",
+                    "date": "",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "fortune.jpg",
+                        "alt": "teaser"
+                    }
+                },
+                {
+                    "title": "artworkname.pdf",
+                    "href": "#",
+                    "tagSix":"h6",
+                    "date": "",
+                    "image": {
+                        "src": "fortune.jpg",
+                        "alt": "teaser"
+                    }
+                }
+            ]
+            
+        },
+        {
+            "subtitle": {
+                "subTitle": "TV Screen 1920 x 1080 HD (JPEG)",
+                "colour": "#4C0FB9",
+                "tagFour":"h4"
+            },
+            "teaserList":[
+                {
+                    "title": "artworkname.pdf",
+                    "href": "#",
+                    "date": "",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "fortune.jpg",
+                        "alt": "teaser"
+                    }
+                },
+                {
+                    "title": "artworkname.pdf",
+                    "href": "#",
+                    "date": "",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "fortune.jpg",
+                        "alt": "teaser"
+                    }
+                },
+                {
+                    "title": "artworkname.pdf",
+                    "href": "#",
+                    "date": "",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "fortune.jpg",
+                        "alt": "teaser"
+                    }
+                }
+            ]
+        }
+    ]
+}

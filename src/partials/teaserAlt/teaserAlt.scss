@@ -1,0 +1,96 @@
+.teaser-alt{
+    height: 160px;
+    position: relative;
+    padding: $spacing-internal;
+}
+.teaser-alt__img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    @include display-flex();
+    @include align-items(flex-end);
+    overflow: hidden;
+    .media{
+        width: 100%;
+    }
+    img{       
+        width: 100%;
+        display: block;
+    }
+}
+.teaser-alt__detail{
+    width: 55%;
+    height: 100%;
+    @include display-flex();
+    @include flex-wrap(wrap);
+    position: relative;
+    .heading-five{
+        color: $colour-white;
+        @include align-self(flex-start);
+        font-weight: $font-weight-medium;
+        line-height: $line-height-title;
+        width: 100%;
+    }
+    .btn{
+        background: transparent;
+        border: 1px solid $colour-white;
+        @include align-self(flex-end);
+        letter-spacing: -0.43px;
+        padding-top: $spacing-desktop/1.4;
+    }
+}
+@media all and (min-width:$screen-sm){
+    .teaser-alt{
+        width: calc(50% - 15px);
+        height: 160px;
+        margin-bottom: $spacing-internal;
+    }
+    .teaser-alt__detail{
+        .btn{
+            line-height: $line-height-body;
+        }
+    }
+}
+@media all and (min-width:$screen-md){
+    .teaser-alt{
+        height: 198px;
+        padding: $spacing-desktop $spacing-large $spacing-large;
+    }
+}
+@media all and (min-width:$screen-lg){
+    .teaser-alt{
+        margin-bottom: $spacing-large;
+    }
+}
+@media all and (min-width:$screen-xl){
+    .teaser-alt__detail{
+        width: 65%;
+    }
+    .teaser-alt{
+        width: calc(50% - 15px);
+    }
+    .teaser-alt__img{
+        width: 40%;
+    }
+}
+@media all and (min-width:$screen-xxl){
+    .teaser-alt{
+        width: calc(33.33% - 20px);
+    }
+    .teaser-alt__detail{
+        width: 81%;
+    }
+    
+}
+@media all and (min-width:$screen-xxxl){
+    .teaser-alt__detail{
+        width: 63%;
+    }
+}
+@media all and (min-width:$screen-xxxxl){
+    .teaser-alt__detail{
+        width: 58%;
+    }
+}

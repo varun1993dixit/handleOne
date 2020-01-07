@@ -1,0 +1,13 @@
+<div class="form__input">
+    <label class="form__label">
+        {{label}}
+    </label>
+    <div class="input-block select--block">
+        <select class="mySelect">
+             {{#each options}}
+                <option value="{{this}}">{{this}}</option>
+            {{/each}}
+        </select>
+        <i class="{{icon}}"></i>
+    </div>
+</div>

@@ -1,0 +1,63 @@
+.dropzone{
+    width: 230px;
+    margin: 0 auto;
+    text-align: center;
+    padding: $spacing-large*2 0;
+    p{
+        line-height: $line-height-small;
+        margin: $spacing-large 0;
+    }
+}
+.drop{
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 200px;    
+}
+.dropzone__container{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: $colour-black;
+    border-radius:50%;
+    position: relative;
+    @include display-flex();
+    @include justify-content(center);
+    @include align-items(center);
+    cursor:pointer;
+    i{
+        @include set-font-size(16);
+        color: $colour-white;
+    }
+}
+.dropzone__input{
+    background: -webkit-linear-gradient(-45deg,  $colour-red 0%,$colour-red-dark 100%);
+    padding: $spacing-internal;
+    position: relative;
+    height: 54px;
+    span{
+        letter-spacing: -0.48px;
+        color: $colour-white;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        @include transform(translateY(-50%));
+        pointer-events: none;
+    }
+    input{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor:pointer;
+        z-index: 1;
+    }
+}
+@media all and (min-width:$screen-md){
+    .dropzone{
+        padding: $spacing-desktop*3 0;
+    }
+}

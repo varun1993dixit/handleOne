@@ -1,0 +1,92 @@
+{
+    "page":true,
+    "mainTitle": {
+            "tagOne":"h1",
+            "gradientStart": "#DD007C",
+            "gradientMiddle": "#FF3122",
+            "gradientEnd": "#FFBB00",
+            "titleText": "All Notifications"
+        },
+    "notification":[
+        {
+        "icon": "la la-trophy",
+        "listingData": {
+            "tagFive":"h5",
+            "title": "Quisque mattis tellus et neque varius, porttitor ultrices dui viverra",
+            "author": "",
+            "dateTime": "19/02/2019 : 09:05 AM"
+        },
+        "link":"#"
+     },
+     {
+        "icon": "la la-trophy",
+        "listingData": {
+            "tagFive":"h5",
+            "title": "SG Gaming sent you a message",
+            "author": "",
+            "dateTime": "19/02/2019 : 09:05 AM"
+        },
+        "link":"#"
+     },
+     {
+        "icon": "la la-trophy",
+        "listingData": {
+            "tagFive":"h5",
+            "title": "EOD Venue Performance : New Report Available",
+            "author": "",
+            "dateTime": "19/02/2019 : 09:05 AM"
+        },
+        "link":"#"
+     },
+     {
+        "icon": "la la-trophy",
+        "listingData": {
+            "tagFive":"h5",
+            "title": "New Cash Match Promotion",
+            "author": "",
+            "dateTime": "19/02/2019 : 09:05 AM"
+        },
+        "link":"#"
+     },
+     {
+        "icon": "la la-trophy",
+        "listingData": {
+            "tagFive":"h5",
+            "title": "File Received - Policy Change",
+            "author": "",
+            "dateTime": "19/02/2019 : 09:05 AM"
+        },
+        "link":"#"
+     },
+     {
+        "icon": "la la-trophy",
+        "listingData": {
+            "tagFive":"h5",
+            "title": "New Machine Tournament Promotion",
+            "author": "",
+            "dateTime": "19/02/2019 : 09:05 AM"
+        },
+        "link":"#"
+     },
+     {
+        "icon": "la la-trophy",
+        "listingData": {
+            "tagFive":"h5",
+            "title": "SG Gaming sent you a message",
+            "author": "",
+            "dateTime": "19/02/2019 : 09:05 AM"
+        },
+        "link":"#"
+     },
+     {
+        "icon": "la la-trophy",
+        "listingData": {
+            "tagFive":"h5",
+            "title": "File Received - Policy Change",
+            "author": "",
+            "dateTime": "19/02/2019 : 09:05 AM"
+        },
+        "link":"#"
+     }
+    ]
+}

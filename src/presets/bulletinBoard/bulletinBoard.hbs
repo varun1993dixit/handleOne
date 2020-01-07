@@ -1,0 +1,15 @@
+<div class="bulletin-board">
+    <div class="title">
+        <{{tagFour}} class="heading-four">{{>title/title headBulletin}}</{{tagFour}}>
+        {{>formLinks/formLinks headBulletin}}
+    </div>
+    <div class="bulletin-board__wrap">
+        <span class="bulletin-board__up"><i class="la la-angle-up"></i></span>
+        <div class="bulletin-board__content">
+        {{#bulletinBoardd}}
+        {{>bulletin/bulletin}}
+        {{/bulletinBoardd}}
+        </div>
+        <span class="bulletin-board__down"><i class="la la-angle-down"></i></span>
+    </div>
+</div>

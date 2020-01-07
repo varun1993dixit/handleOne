@@ -1,0 +1,245 @@
+.table{
+    background-color: $colour-white;
+    border: 1px solid $colour-grey-dark;
+    padding-left: $spacing-internal;
+    padding-right: $spacing-internal;
+    padding-bottom: $spacing-internal;
+}
+.table__head{
+    display: none;
+}
+.table__row{
+    border-bottom: 1px solid $colour-grey-dark;
+    padding-bottom: $spacing-internal;
+    padding-top: $spacing-internal
+}
+.table__th{
+    font-weight: $font-weight-medium;
+    @include set-font-size(6);
+    margin-bottom: $spacing-mobile/3;
+    letter-spacing: -0.42px;
+    color: $colour-grey-light;
+}
+.table__col{
+    margin-bottom: $spacing-mobile;
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+.table__td{
+    span{
+        @include set-font-size(6);
+        letter-spacing: -0.42px;
+        color: $colour-grey-light;
+    }
+    .form__input{
+        margin: 0;
+    }
+    .form__check{
+        padding: 0;
+        margin: 0;
+    }
+    .form__checkmark{
+        width: 28px;
+        height: 28px;
+        padding: 0;
+        &:before{
+            width: 100%;
+            height: 100%;
+            background-color: $colour-grey-dark;
+        }
+        &:after{
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+    }
+}
+.table__td--shop{
+    span{
+        display: inline-block;
+        &:first-child{
+            min-width: 85px;
+        }
+    }
+}
+.table__link{
+    .btn{
+        width: 100%;
+    }
+}
+@media all and (min-width:$screen-sm){
+    .table{
+        padding-left: $spacing-desktop;
+        padding-right: $spacing-desktop;
+        padding-bottom: $spacing-desktop;
+        
+    }
+    .table__row{
+        @include display-flex();
+        @include flex-wrap(wrap);
+        @include justify-content(space-between);
+    }
+    .table__col{
+        width: 33.3%;
+    }
+    .table__col--select{
+        width: calc(50% - 15px);
+        margin-bottom: 0;
+    }
+    .table__link{
+        width: 100%;
+        text-align: right;
+        padding-top: $spacing-tablet;
+        .btn{
+            width: auto;
+        }
+    }
+    .table__td{
+        .form__checkmark{
+            width: 20px;
+            height: 20px;
+            &:after{
+                width: 5px;
+                height: 14px;
+            }
+        }
+    }
+}
+@media all and (min-width:$screen-md){
+    .table{
+        padding: 0;
+        position: relative;
+        padding-top: $spacing-large*2;
+        .form__label{
+            display: none;
+        }
+    }
+    .table__row{
+        padding-left: $spacing-large;
+        padding-right: $spacing-large;
+        @include justify-content(flex-start);
+        @include align-items(center);
+        &:first-child{
+            padding-top: $spacing-large;
+            .table__head{
+                @include display-flex();                
+                width: 100%;
+            }
+        }
+    }
+    .table__th{        
+        font-weight: $font-weight-body;
+        color: $colour-white;
+        display: none;
+        margin-bottom: 0;
+    }
+    .table__head{
+        width: 100%;
+        background-color: $colour-grey-light;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding-left: $spacing-large;
+        padding-right: $spacing-large;  
+        @include align-items(center);      
+        min-height: 61px;
+        .table__th{
+            display: block;
+        }
+    }
+    .table__col{
+        margin-bottom: 0;
+    }
+    .table__col--option,.table__th--option{
+        width: 7.4%;
+    }
+    .table__col--title,.table__th--title{
+        width: 21.1%;
+    }
+    .table__col--brand,.table__th--brand{
+        width: 12.2%;
+    }
+    .table__col--select{
+        margin-top: 0;
+    }
+    .table__col--select,.table__th--select{
+        width: 28%;
+        margin-right: $spacing-large;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    .table__td{
+        .form__checkmark{
+            width: 30px;
+            height: 30px;
+            &:after{
+                width: 8px;
+                height: 20px;
+                top: 4px;
+            }
+        }
+    }
+    .table__td--shop{
+        span{
+            &:first-child{
+                min-width: 111px;
+            }
+        }
+    }
+    .table__link{
+        padding: $spacing-large;
+    }
+}
+@media all and (min-width:$screen-lg){
+    .table__col--brand, .table__th--brand{
+        width: 12.3%;
+    }
+}
+@media all and (min-width:$screen-xl){
+    .table{
+        border-left: none;
+        border-right: none;
+        margin-bottom: $spacing-desktop;
+    }
+    .table__row{
+        @include justify-content(space-between);
+    }
+    .table__head{
+        @include justify-content(space-between);
+    }
+    .table__col--title, .table__th--title{
+        width: 21%;
+    }
+    .table__col--brand, .table__th--brand{
+        width: 12%;
+    }
+}
+@media all and (min-width:$screen-xxxl){
+    .table__col--option, .table__th--option{
+        width: 8.5%;
+    }
+    .table__col--title, .table__th--title{
+        width: 25%;
+    }
+    .table__col--brand, .table__th--brand{
+        width: 17%;
+    }
+    .table__col--select, .table__th--select{
+        width: 23.5%;
+    }
+    .table__td--shop{
+        span{
+            &:first-child{
+                min-width: 132px;
+            }
+        }
+    }
+}
+@media all and (min-width:$screen-xxxxl){
+    .table__col--title, .table__th--title{
+        width: 25.4%;
+    }
+}

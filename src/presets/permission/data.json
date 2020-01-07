@@ -1,0 +1,21 @@
+{
+    "page":true,   
+    "mainTitle": {
+            "tagOne":"h1",
+            "gradientStart": "#DD007C",
+            "gradientMiddle": "#FF3122",
+            "gradientEnd": "#FFBB00",
+            "titleText": "Games & Marketting",
+            "imageSrc":"assets/images/teaser-alt1.png",
+            "altText":"title image"
+        },
+    "warningText":{
+        "icon":"las la-exclamation-triangle",
+        "text":"You don’’t have permission to access the area of the site. If you require any help with this you can call is on 01234 567 890 or help@emailaddress.com"
+    },
+    "subtitle": {
+        "subTitle": "Sorry",
+        "colour": "#DD007C",
+        "tagFour":"h4"
+    }
+}

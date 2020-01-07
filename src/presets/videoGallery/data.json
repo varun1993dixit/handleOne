@@ -1,0 +1,130 @@
+{
+    "page":true,
+    "mainTitle":{
+        "tagOne":"h1",
+        "gradientStart": "#510077",
+        "gradientMiddle": "#9900BC",
+        "gradientEnd": "#EA50D8",
+        "titleText": "Video Gallery",
+        "imageSrc":"",
+        "altText":""
+    },
+    "sliderBar": [
+        {
+            "subtitle": {
+                "subTitle": "SG Gaming News",
+                "colour": "#4C0FB9",
+                "tagFour":"h4"
+            },
+            "teaser": [
+                {
+                    "title": "Video Title",
+                    "tagSix":"h6",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                    "paraText":"Nullam tristique ligula nec quam facilisis efficitur. Quisque felis lacus, dapibus id erat vitae, gravida rhoncus augue….",
+                    "image": {
+                        "src": "teaser1.jpg",
+                        "alt": "teaser",
+                        "mediaVideo":true,
+                        "mediaLink":"#"
+                    }
+                },
+                {
+                    "title": "Video Title",
+                    "tagSix":"h6",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                    "paraText":"Nullam tristique ligula nec quam facilisis efficitur. Quisque felis lacus, dapibus id erat vitae, gravida rhoncus augue….",
+                    "image": {
+                        "src": "teaser2.jpg",
+                        "alt": "teaser",
+                        "mediaVideo":true,
+                        "mediaLink":"#"
+                    }
+                },
+                {
+                    "title": "Video Title",
+                    "tagSix":"h6",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                    "paraText":"Nullam tristique ligula nec quam facilisis efficitur. Quisque felis lacus, dapibus id erat vitae, gravida rhoncus augue….",
+                    "image": {
+                        "src": "teaser3.jpg",
+                        "alt": "teaser",
+                        "mediaVideo":true,
+                        "mediaLink":"#"
+                    }
+                },
+                {
+                    "title": "Video Title",
+                    "tagSix":"h6",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                    "paraText":"Nullam tristique ligula nec quam facilisis efficitur. Quisque felis lacus, dapibus id erat vitae, gravida rhoncus augue….",
+                    "image": {
+                        "src": "teaser4.jpg",
+                        "alt": "teaser",
+                        "mediaVideo":true,
+                        "mediaLink":"#"
+                    }
+                },
+                {
+                    "title": "Video Title",
+                    "tagSix":"h6",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                    "paraText":"Nullam tristique ligula nec quam facilisis efficitur. Quisque felis lacus, dapibus id erat vitae, gravida rhoncus augue….",
+                    "image": {
+                        "src": "teaser1.jpg",
+                        "alt": "teaser",
+                        "mediaVideo":true,
+                        "mediaLink":"#"
+                    }
+                }
+            ]
+        },
+        {
+            "subtitle": {
+                "subTitle": "SG Industry News",
+                "colour": "#F48F27",
+                "tagFour":"h4"
+            },
+            "teaser": [
+                {
+                    "title": "Video Title",
+                    "tagSix":"h6",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                    "paraText":"Nullam tristique ligula nec quam facilisis efficitur. Quisque felis lacus, dapibus id erat vitae, gravida rhoncus augue….",
+                    "image": {
+                        "src": "teaser7.jpg",
+                        "alt": "teaser",
+                        "mediaVideo":true,
+                        "mediaLink":"#"
+                    }
+                },
+                {
+                    "title": "Video Title",
+                    "tagSix":"h6",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                    "paraText":"Nullam tristique ligula nec quam facilisis efficitur. Quisque felis lacus, dapibus id erat vitae, gravida rhoncus augue….",
+                    "image": {
+                        "src": "teaser12.jpg",
+                        "alt": "teaser",
+                        "mediaVideo":true,
+                        "mediaLink":"#"
+                    }
+                }
+            ]
+        }
+    ]
+}

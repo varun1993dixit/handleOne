@@ -1,0 +1,57 @@
+{
+    "logo":{
+        "alt":"logo",
+        "src": "logo.svg"
+    },
+    "profile":{
+        "bell":"la la-bell",
+        "profileIcon":"JS",
+        "notificationLink":"javascript:void(0);",
+        "notification":"5",
+        "profileTitle":"John Smith",
+        "angleDown":"la la-angle-down",
+        "linkListData":[            
+            {
+                "icon":"las la-angle-right",
+                "text":"RBA Summary By Trigger Group : New Report Available",
+                "href":"#"
+            },
+            {
+                "icon":"las la-angle-right",
+                "text":"SG Gaming sent you a message",
+                "href":"#"
+            },
+            {
+                "icon":"las la-angle-right",
+                "text":"EOD Venue Performance : New Report Available",
+                "href":"#"
+            },
+            {
+                "icon":"las la-angle-right",
+                "text":"New Cash Match Promotion",
+                "href":"#"
+            },
+            {
+                "icon":"las la-angle-right",
+                "text":"File Received - Sales Report",
+                "href":"#"
+            }
+        ],
+        "notifyLink":{
+            "text":"View All Notifications",
+            "href":"allnotification"
+        },
+        "notifyUser":[
+            {
+                "icon":"las la-angle-right",
+                "text":"Logout",
+                "link":"#"
+            }
+        ],
+        "notifyLinkUser":{
+            "text":"",
+            "href":""
+        }
+    }
+    
+}

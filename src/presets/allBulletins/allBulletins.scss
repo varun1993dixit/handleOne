@@ -1,0 +1,12 @@
+.all-bulletins{
+    padding: $spacing-internal/2 $spacing-internal 0;
+    background-color: $colour-white;
+    .bulletin{
+        @include align-items(center);
+    }
+}
+@media all and (min-width:$screen-xl){
+    .all-bulletins{
+        padding: $spacing-internal/2 $spacing-large 0; 
+    }
+}

@@ -1,0 +1,161 @@
+{
+    "page":true,
+    "mainTitle":{
+        "tagOne":"h1",
+        "gradientStart": "#FF0051",
+        "gradientMiddle": "#7A00C0",
+        "gradientEnd": "#00E5F8",
+        "titleText": "SG Analytics",
+        "imageSrc":"assets/images/teaser-alt4.png",
+        "altText":"title image"
+    },
+    "reportTitle":{
+        "subTitle": "Your Reports",
+        "colour": "#DD007C",
+        "tagFour":"h4"
+    },
+    "menuPara":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed orci sed metus venenatis semper. Suspendisse euismod, ligula vel pulvinar convallis, libero eros consectetur tortor, nec imperdiet diam dolor ac enim.",
+    "linklistData":[
+        {
+            "href":"#",
+            "text":"Latest Reports",
+            "status":{
+                "statusText":"New"
+            },
+            "icon":"las la-angle-right"
+        },
+        {
+            "href":"#",
+            "text":"Promotional Detail",
+            "icon":"las la-angle-right"
+        },
+        {
+            "href":"#",
+            "text":"RBA Summary By Trigger Group",
+            "icon":"las la-angle-right"
+        },
+        {
+            "href":"#",
+            "text":"RBA Summary By Promotion Type",
+            "icon":"las la-angle-right"
+        },
+        {
+            "href":"#",
+            "text":"Early EOD & Late PON",
+            "icon":"las la-angle-right"
+        },
+        {
+            "href":"#",
+            "text":"Venue and Trends (CAB)",
+            "icon":"las la-angle-right"
+        },
+        {
+            "href":"#",
+            "text":"Transactional Venue Performance",
+            "icon":"las la-angle-right"
+        },
+        {
+            "href":"#",
+            "text":"EOD Venue Performance",
+            "status":{
+                "statusText":"New"
+            },
+            "icon":"las la-angle-right"
+        },
+        {
+            "href":"#",
+            "text":"Games Breakdown",
+            "icon":"las la-angle-right"
+        },
+        {
+            "href":"#",
+            "text":"Games Breakdown By Venue",
+            "icon":"las la-angle-right"
+        },
+        {
+            "href":"#",
+            "text":"Half Hourly - Stakes & Plays (By Venue)",
+            "icon":"las la-angle-right"
+        },
+        {
+            "href":"#",
+            "text":"KPI",
+            "icon":"las la-angle-right"
+        },
+        {
+            "href":"#",
+            "text":"Pending and Expired Vouchers Weekly",
+            "icon":"las la-angle-right"
+        },
+        {
+            "href":"#",
+            "text":"Pending and Expired Vouchers Last 4 Weeks",
+            "icon":"las la-angle-right"
+        },
+        {
+            "href":"#",
+            "text":"Paid Vouchers",
+            "icon":"las la-angle-right"
+        }
+    ],
+    "fileTitle":{
+        "subTitle": "EOD Venue Performance",
+        "colour": "#DD007C",
+        "tagFour":"h4"
+    },
+    "reportPara":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed orci sed metus venenatis semper. Suspendisse euismod, ligula vel pulvinar convallis, libero eros consectetur tortor, nec imperdiet diam dolor ac enim.",
+    "document":[
+        {
+            "tagFive":"h5",
+            "docIcon":"lar la-file-alt",
+            "title":"Reportname.PDF",
+            "author":"",
+            "dateTime":"19/06/2019 : 09:05 AM",
+            "downloadLink":"#",
+            "downloadIcon":"las la-cloud-download-alt",
+            "linkText":"Download",           
+            "detail":"Promotion Details",
+            "docList":true,
+            "download":true
+        },
+        {
+            "tagFive":"h5",
+            "docIcon":"lar la-file-alt",
+            "title":"Reportname.PDF",
+            "author":"",
+            "dateTime":"19/06/2019 : 09:05 AM",
+            "downloadLink":"#",
+            "downloadIcon":"las la-cloud-download-alt",
+            "linkText":"Download",
+            "detail":"Venue and Trends (CAB)",
+            "docList":true,
+            "download":true
+        },
+        {
+            "tagFive":"h5",
+            "docIcon":"lar la-file-alt",
+            "title":"Reportname.PDF",
+            "author":"",
+            "dateTime":"19/06/2019 : 09:05 AM",
+            "downloadLink":"#",
+            "downloadIcon":"las la-cloud-download-alt",
+            "linkText":"Download",
+            "detail":"Games Breakdown",
+            "docList":true,
+            "download":true
+        },
+        {
+            "tagFive":"h5",
+            "docIcon":"lar la-file-alt",
+            "title":"Reportname.PDF",
+            "author":"",
+            "dateTime":"19/06/2019 : 09:05 AM",
+            "downloadLink":"#",
+            "downloadIcon":"las la-cloud-download-alt",
+            "linkText":"Download",
+            "detail":"Games Breakdown By Venue",
+            "docList":true,
+            "download":true
+        }
+    ]
+}

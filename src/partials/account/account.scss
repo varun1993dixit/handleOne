@@ -1,0 +1,12 @@
+.form__box{
+    border:1px solid $colour-grey-dark;
+    @include set-padding();
+    background-color: $colour-white;
+    .heading-six{
+        margin-bottom: $spacing-internal;
+    }
+    p{
+        color: $colour-grey-light;
+        margin-bottom: $spacing-internal/4;
+    }
+}

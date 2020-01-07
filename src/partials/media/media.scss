@@ -1,0 +1,17 @@
+.media{
+    position: relative;
+}
+.play__media{
+    position: absolute;
+    top: 50%;
+    width: 108px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    @include transform(translateY(-50%));
+    cursor: pointer;
+    i{
+        @include set-font-size(15);
+        color: $colour-white;
+    }
+}

@@ -1,0 +1,27 @@
+.report__file--latest{
+    .document{
+        @include justify-content(space-between);
+    }
+    .document__list{
+        width: 34%;
+    }
+    .document__detail{
+        width: 30%;
+        text-align: center;
+    }
+    .link-icon{
+        width: 89px;
+    }
+}
+@media all and (min-width:$screen-sm){
+    .report__file--latest{
+        .document__detail{
+            text-align: left;
+        }
+        .document{
+         .link-icon{
+            width: 109px;
+         }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.form{
+    @include set-padding((top));
+    padding-left: $spacing-internal/5; 
+    padding-right: $spacing-internal/5; 
+    @include set-padding((bottom));
+}
+.form__head-text{
+    margin-bottom: $spacing-internal;
+    color: $colour-grey-light;
+}
+.form__links{
+    @include display-flex();
+    @include justify-content(space-between);
+    @include align-items(center);
+    padding-top: $spacing-internal/4;
+    margin-bottom: $spacing-internal;
+}
+@media all and (min-width:$screen-sm){
+    .form{
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 349px;
+        padding-bottom: $spacing-tablet;
+    }
+}
+@media all and (min-width:$screen-md){
+    .form__head-text{
+        margin-bottom: $spacing-large;
+    }
+}
+@media all and (min-width:$screen-lg){
+    .form{
+        max-width: 498px;
+    }
+}
+@media all and (min-width:$screen-xl){
+    .form__links--big{
+        .btn{
+            min-width: 127px;
+        }
+    } 
+    .form__links{
+        margin-bottom: $spacing-internal*2;
+    } 
+    .form__links--big{
+        .btn{
+            min-width: 127px;
+        }
+    }
+}

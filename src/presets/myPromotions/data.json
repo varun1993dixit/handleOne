@@ -1,0 +1,71 @@
+{
+    "page":true,
+    "mainTitle": {
+            "tagOne":"h1",
+            "gradientStart": "#8B0071",
+            "gradientMiddle": "#AC0063",
+            "gradientEnd": "#FF134D",
+            "titleText": "My Promotions",
+            "imageSrc":"assets/images/teaser-alt3.png",
+            "altText":"title image"
+        },
+    "autosuggest": [
+        {
+            "buttons": {
+                "text": "Search",
+                "link": "#"
+            },
+            "placeholder": "Search for Games…",
+            "type": "text",
+            "icon": "la la-search"
+        }
+    ],
+    "promotionData":[
+        {
+            "promotionName":"Promotion Name",
+            "promotionGame":"Machine Tournament",
+            "statusText":"Active",
+            "viewLink":"#",
+            "viewIcon":"las la-server",
+            "viewText":"View Request",
+            "cancelLink":"#",
+            "cancelIcon":"lar la-trash-alt",
+            "cencelText":"Cancel",
+            "promotionNames":true,
+            "promotionGames":true,
+            "promotionStatus":true,
+            "promotionLinks":true
+        },
+        {
+            "promotionName":"Promotion Name",
+            "promotionGame":"Cash Match",
+            "statusText":"Active",
+            "viewLink":"#",
+            "viewIcon":"las la-server",
+            "viewText":"View Request",
+            "cancelLink":"#",
+            "cancelIcon":"lar la-trash-alt",
+            "cencelText":"Cancel",
+            "promotionNames":true,
+            "promotionGames":true,
+            "promotionStatus":true,
+            "promotionLinks":true
+        },
+        {
+            "inactive":"status--inactive",
+            "promotionName":"Promotion Name",
+            "promotionGame":"Free Play",
+            "statusText":"Active on 20/10/2019",
+            "viewLink":"#",
+            "viewIcon":"las la-server",
+            "viewText":"View Request",
+            "cancelLink":"#",
+            "cancelIcon":"lar la-trash-alt",
+            "cencelText":"Cancel",
+            "promotionNames":true,
+            "promotionGames":true,
+            "promotionStatus":true,
+            "promotionLinks":true
+        }
+    ]
+}

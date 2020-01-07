@@ -1,0 +1,27 @@
+<div class="profile">
+    <div class="profile__notification">
+        <a href="{{notificationLink}}"><i class="{{bell}}"></i></a>
+        <span class="notification-count">{{notification}}</span>
+        <div  class="notify">
+            {{#linkListData}}
+                {{>linkList/linkList }}
+            {{/linkListData}}
+            {{>formLinks/formLinks notifyLink}}
+        </div>
+    </div>
+    <div class="profile__user">
+        <div class="profile__account">
+            <span class="profile__icon">{{profileIcon}}</span>    
+            <span class="profile__title">{{profileTitle}}</span>        
+        </div>
+        <div class="profile__more">
+            <i class="{{angleDown}}"></i>
+        </div>
+        <div  class="notify">
+            {{#notifyUser}}
+                {{>linkList/linkList }}
+            {{/notifyUser}}
+            {{>formLinks/formLinks notifyLinkUser}}
+        </div>
+    </div>
+</div>

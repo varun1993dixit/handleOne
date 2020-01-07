@@ -1,0 +1,159 @@
+//spacing mixins
+// <-- Spacing specific
+@mixin set-padding($directions:all, $modifier:1){
+  @each $direction in $directions{
+    @if $direction == top {
+      padding-top: $modifier * $spacing-mobile;
+    }
+    @else if $direction == right {
+      padding-right: $modifier * $spacing-mobile;
+    }
+    @else if $direction == bottom {
+      padding-bottom: $modifier * $spacing-mobile;
+    }
+    @else if $direction == left {
+      padding-left: $modifier * $spacing-mobile;
+    }
+    @else if $direction == all {
+      padding: $modifier * $spacing-mobile;
+    }
+  }
+  @media(min-width: 768px){
+    @each $direction in $directions{
+      @if $direction == top {
+        padding-top: $modifier * $spacing-tablet;
+      }
+      @else if $direction == right {
+        padding-right: $modifier * $spacing-tablet;
+      }
+      @else if $direction == bottom {
+        padding-bottom: $modifier * $spacing-tablet;
+      }
+      @else if $direction == left {
+        padding-left: $modifier * $spacing-tablet;
+      }
+      @else if $direction == all {
+        padding: $modifier * $spacing-tablet;
+      }
+    }
+  }
+  @media(min-width: 992px){
+    @each $direction in $directions{
+      @if $direction == top {
+        padding-top: $modifier * $spacing-desktop;
+      }
+      @else if $direction == right {
+        padding-right: $modifier * $spacing-desktop;
+      }
+      @else if $direction == bottom {
+        padding-bottom: $modifier * $spacing-desktop;
+      }
+      @else if $direction == left {
+        padding-left: $modifier * $spacing-desktop;
+      }
+      @else if $direction == all {
+        padding: $modifier * $spacing-desktop;
+      }
+    }
+  }
+  @media(min-width: 1200px){
+    @each $direction in $directions{
+      @if $direction == top {
+        padding-top: $modifier * $spacing-large;
+      }
+      @else if $direction == right {
+        padding-right: $modifier * $spacing-large;
+      }
+      @else if $direction == bottom {
+        padding-bottom: $modifier * $spacing-large;
+      }
+      @else if $direction == left {
+        padding-left: $modifier * $spacing-large;
+      }
+      @else if $direction == all {
+        padding: $modifier * $spacing-large;
+      }
+    }
+  }
+}
+@mixin set-margin($directions:all, $modifier:1){
+
+  @each $direction in $directions{
+    @if $direction == top {
+      margin-top: $modifier * $spacing-mobile;
+    }
+    @else if $direction == right {
+      margin-right: $modifier * $spacing-mobile;
+    }
+    @else if $direction == bottom {
+      margin-bottom: $modifier * $spacing-mobile;
+    }
+    @else if $direction == left {
+      margin-left: $modifier * $spacing-mobile;
+    }
+    @else if $direction == all {
+      margin: $modifier * $spacing-mobile;
+    }
+  }
+
+  @media(min-width: 768px){
+    @each $direction in $directions{
+      @if $direction == top {
+        margin-top: $modifier * $spacing-tablet;
+      }
+      @else if $direction == right {
+        margin-right: $modifier * $spacing-tablet;
+      }
+      @else if $direction == bottom {
+        margin-bottom: $modifier * $spacing-tablet;
+      }
+      @else if $direction == left {
+        margin-left: $modifier * $spacing-tablet;
+      }
+      @else if $direction == all {
+        margin: $modifier * $spacing-tablet;
+      }
+    }
+  }
+
+  @media(min-width: 992px){
+    @each $direction in $directions{
+      @if $direction == top {
+        margin-top: $modifier * $spacing-desktop;
+      }
+      @else if $direction == right {
+        margin-right: $modifier * $spacing-desktop;
+      }
+      @else if $direction == bottom {
+        margin-bottom: $modifier * $spacing-desktop;
+      }
+      @else if $direction == left {
+        margin-left: $modifier * $spacing-desktop;
+      }
+      @else if $direction == all {
+        margin: $modifier * $spacing-desktop;
+      }
+    }
+  }
+
+  @media(min-width: 1200px){
+    @each $direction in $directions{
+      @if $direction == top {
+        margin-top: $modifier * $spacing-large;
+      }
+      @else if $direction == right {
+        margin-right: $modifier * $spacing-large;
+      }
+      @else if $direction == bottom {
+        margin-bottom: $modifier * $spacing-large;
+      }
+      @else if $direction == left {
+        margin-left: $modifier * $spacing-large;
+      }
+      @else if $direction == all {
+        margin: $modifier * $spacing-large;
+      }
+    }
+  }
+}
+// Spacing specific -->

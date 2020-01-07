@@ -1,0 +1,20 @@
+.menu-btn{
+    background-color: $colour-grey-dark;
+    width: 56px;
+    height: 100%;
+    cursor: pointer;
+    @include display-flex();
+    @include align-items(center);
+    @include justify-content(center);
+    position: absolute;
+    top: 0;
+    right: 0;
+    i{
+        @include set-font-size(8);
+    }
+}
+@media all and (min-width:$screen-xxl){
+    .menu-btn{
+        width: 61px;
+    }
+}

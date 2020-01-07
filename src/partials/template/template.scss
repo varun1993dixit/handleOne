@@ -1,0 +1,40 @@
+.template__content{
+    background-color: $colour-white;
+    padding: $spacing-internal;
+    border: 1px solid $colour-grey-dark;
+    .heading-six{
+        @include set-font-size(14); 
+        margin-bottom: $spacing-internal;
+        letter-spacing: -0.46px;
+    }
+    p{
+        @include set-font-size(14); 
+        line-height: $line-height-large;
+        margin-bottom: $spacing-mobile;
+    }
+}
+@media all and (min-width:$screen-sm){
+    .template{
+        padding: 0 $spacing-large/2; 
+    }
+    .template__content{
+        padding: $spacing-large;
+        p{
+            margin-bottom: $spacing-large;
+        }
+    }
+}
+@media all and (min-width:$screen-lg){
+    .template__content{
+        p{
+            margin-bottom: $spacing-desktop*2 ;
+        }
+    }
+}
+@media all and (min-width:$screen-xl){
+    .template__content{
+        p{
+            margin-bottom: $spacing-desktop ;
+        }
+    }
+}

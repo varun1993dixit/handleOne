@@ -1,0 +1,20 @@
+<div class="banner-wrap">
+<div class="banner-slider">  
+    {{#sliderBar}}   
+    <div class="banner-slider__content" data-start=" {{gradientStart}}" data-middle=" {{gradientMiddle}}" data-end="{{gradientEnd}}" style="background:linear-gradient(135deg,  {{gradientStart}} 0%,{{gradientMiddle}} 50%,{{gradientEnd}} 100%)">
+        {{#if image}}
+        {{>media/media image}}
+        {{/if}}
+        <div class="banner-slider__text">
+            <{{tagTwo}} class="heading-two">{{title}}</{{tagTwo}}>
+            <{{tagThree}} class="heading-three">{{subtitle}}</{{tagThree}}>
+            {{>button/button button}}
+        </div>
+        <div class="banner-slider__counter">
+            <span>{{currentSlide}}</span>
+            <span>{{totalSlide}}</span>
+        </div>
+    </div>
+     {{/sliderBar}}   
+</div>
+</div>

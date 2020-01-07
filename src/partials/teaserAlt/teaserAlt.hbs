@@ -1,0 +1,9 @@
+<div class="teaser-alt" data-start=" {{gradientStart}}" data-middle=" {{gradientMiddle}}" data-end="{{gradientEnd}}" style="background: linear-gradient(135deg,  {{gradientStart}} 0%,{{gradientMiddle}} 50%,{{gradientEnd}} 100%)">
+    {{#if image}}
+     <div class="teaser-alt__img">{{>media/media image}}</div>
+    {{/if}}
+    <div class="teaser-alt__detail">
+        <{{tagFive}} class="heading-five">{{title}}</{{tagFive}}>
+        {{>button/button buttons}}
+    </div>
+</div>

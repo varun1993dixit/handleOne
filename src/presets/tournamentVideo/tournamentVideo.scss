@@ -1,0 +1,40 @@
+.video-blurb{
+    .media{
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
+}
+@media all and (min-width:$screen-md){
+.video-blurb{
+    @include display-flex();
+    .media{
+        width: 50%;
+        overflow: hidden;
+        img{
+            height: 100%;
+        }
+    }
+    .blurb{
+        width: 50%;
+    }
+}
+}
+@media all and (min-width:$screen-xl){
+    .video-blurb{
+        .blurb__content{
+            max-height: 137px;
+            &.active{
+                max-height: inherit;
+            }
+        }
+    }
+}
+@media all and (min-width:$screen-xxl){
+    .video-blurb{
+        .blurb__content{
+            max-height: 127px;
+        }
+    }
+}

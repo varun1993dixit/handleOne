@@ -1,0 +1,52 @@
+.sidemenu{
+    .link-list{
+       > span{
+            width: calc(100% - 87px);
+            @include set-font-size(6);
+        }
+        i{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            opacity: 0;
+        }
+        &.active{
+            i{
+                opacity: 1;
+            }
+        }
+    }
+}
+@media all and (min-width:$screen-sm){
+    .sidemenu{
+        .link-list{
+            > span{
+                width: calc(100% - 71px);
+            }
+        }
+    }
+}
+@media all and (min-width:$screen-md){
+    .sidemenu{
+        .link-list{
+            @include justify-content(space-between);
+            > span{
+                width: auto;
+            }
+            i{
+                width: 28px;
+                height: 28px;
+            }
+        }
+    }
+}
+@media all and (min-width:$screen-xl){
+    .sidemenu{
+        .link-list{
+            padding: $spacing-internal 0;
+            .status{
+                margin-right: $spacing-internal;
+            }
+        }
+    }
+}

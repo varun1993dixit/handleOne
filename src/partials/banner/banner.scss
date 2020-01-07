@@ -1,0 +1,32 @@
+.banner-image{    
+    overflow: hidden;
+    img{
+        display: block;
+        width: 100%;
+        min-height: 200px ;
+        object-fit: cover;
+        object-position: 20%;
+    }
+}
+@media all and (min-width:$screen-sm){
+    .banner-image{
+        img{
+            min-height: 200px;
+        }
+    }
+}
+@media all and (min-width:$screen-lg){
+    .banner-image{
+        img{
+            min-height: 300px;
+        }
+    }
+}
+@media all and (min-width:$screen-xxl){
+    .banner-image{
+        img{
+            min-height: 400px;
+            object-position: initial;
+        }
+    }
+}

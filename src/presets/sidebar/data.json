@@ -1,0 +1,85 @@
+{
+    "sideBar":[
+        {
+            "icon":"la la-home",
+            "title":"Home",
+            "link":"homepage"
+        },
+        {
+            "icon":"la la-gamepad",
+            "title":"Games & Marketing",
+            "link":"gamesmarketting"
+        },
+        {
+            "icon":"la la-cubes",
+            "title":"Products",
+            "link":"products"
+        },
+        {
+            "icon":"la la-trophy",
+            "title":"Promotions",
+            "link":"promotion",
+            "submenu":[
+                {
+                    "subtitle":"Machine Tournament",
+                    "subLink":"tournament"
+                },
+                {
+                    "subtitle":"Cash Match",
+                    "subLink":"#"
+                },
+                {
+                    "subtitle":"Golden Bonus",
+                    "subLink":"#"
+                },
+                {
+                    "subtitle":"Free Play",
+                    "subLink":"#"
+                },
+                {
+                    "subtitle":"My Promotions",
+                    "subLink":"mypromotions"
+                }
+            ]
+        },
+        {
+            "icon":"la la-chart-bar",
+            "title":"SG Analytics",
+            "link":"analytics"
+        },
+        {
+            "icon":"la la-video",
+            "title":"Video Gallery",
+            "link":"gallery"
+        },
+        {
+            "icon":"la la-book-open",
+            "title":"News & Info",
+            "link":"info"
+        },
+        {
+            "icon":"la la-cloud-upload-alt",
+            "title":"File Transfer",
+            "link":"filetransfer"
+        }
+    ],
+    "buttons": [
+        {
+            "text": "Leave Feedback",
+            "gradientStart": "#ED1D45",
+            "gradientEnd": "#B8122C",
+            "link":"feedback"
+        }
+    ],
+    "social":[
+        {
+            "link":"#",
+            "icon":"la la-twitter"
+        },
+        {
+            "link":"#",
+            "icon":"la la-linkedin"
+        }
+    ],
+    "title":"Don’t forget to follow us"
+}

@@ -1,0 +1,213 @@
+.document{
+    @include display-flex();
+    @include align-items(flex-start);
+    @include justify-content(space-between);
+    border-bottom: 1px solid $colour-grey-dark;
+    padding: $spacing-internal 0;  
+    position: relative;  
+    &:last-child{
+        border-bottom: none;
+    }
+    .link-icon{
+        margin-top: $spacing-mobile;
+        @include set-font-size(6);
+        i{
+            color: $colour-red;
+        }
+    }
+    .status{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+.document__list{
+    width: calc(100% - 100px);
+    @include display-flex();
+    @include align-items(flex-start);
+    margin-left: -$spacing-mobile/5;
+    .document__icon{
+        @include set-font-size(2);
+        @include align-self(flex-start);
+        margin-right: $spacing-mobile/3;
+    }
+    .listing__text--title{
+        display: none;
+    }
+    .listing{        
+        padding-left: 0;
+        width: auto;
+        .heading-five{
+            @include set-font-size(6);
+            letter-spacing: -0.42px;
+            word-break: break-all;
+        }
+    }
+}
+.document__detail{
+    @include set-font-size(6);
+    letter-spacing: -0.48px;
+}
+.status{
+    background-color: $colour-green;
+    color: $colour-white;
+    @include set-font-size(13);
+    padding: $spacing-internal/10 $spacing-internal/2;
+    display: inline-block;
+}
+.status--inactive{
+    background-color: $colour-grey-fade;
+}
+.promotion__name{
+    width: 21%;
+}
+.promotion__game{
+    width: 24%;
+}
+.promotion__status{
+    width: 23%;
+}
+.promotion__links{
+    width: 32%;
+    @include display-flex();
+    a{
+        position: relative;
+        &:after{
+            position: absolute;
+            content: "";
+            width: 1px;
+            height: 25px;
+            background-color: $colour-grey-dark;
+            right: 0;
+            top: -3px;
+            display: inline-block;
+        }
+        &:first-child{
+            padding-right: $spacing-internal;
+        }
+        &:last-child{
+            padding-left: $spacing-internal;
+            &:after{
+                display: none;
+            }
+        }
+    }
+}
+.link-icon{
+    color: $colour-black;
+    display: inline-block;    
+    i{
+        @include set-font-size(2);
+        vertical-align: middle;
+        margin-right: $spacing-mobile/3;
+        pointer-events: none;
+        
+    }
+    .text-link{
+        vertical-align: middle;
+        pointer-events: none;
+        @include set-font-size(6);
+    }
+    &:hover{
+        .text-link{
+            text-decoration: none;
+        }
+    }
+}
+.link-icon--secondary{
+    color: $colour-red;
+    .text-link{
+        color: $colour-red;
+    }
+}
+.promotion__text{
+    @include set-font-size(6);
+}
+@media all and (min-width:$screen-sm){
+    .document{
+        .document__list{
+            max-width: 305px;
+        }
+        .status{
+            position: static;
+        }
+    }
+    .promotion__status{
+        width: 23%;
+    }
+    .promotion__links{
+        width: 219px;
+    }
+    .document__list{
+        .listing{
+            .heading-five{
+                word-break: normal;
+            }
+        }
+    }
+}
+@media all and (min-width:$screen-md){
+    .document{
+        padding: $spacing-internal $spacing-large;
+        .document__list{
+            max-width: 280px;
+            margin-left: -$spacing-internal/5;
+        }
+    }
+    .promotion__status{
+        width: 21%;
+    }
+    .promotion__links{
+        width: 275px;
+        a{
+            &:first-child{
+                padding-right: $spacing-large;
+            }
+            &:last-child{
+                padding-left: $spacing-large;
+            }
+            &:after{
+                height: 45px;
+                top: -10px;
+            }
+        }
+    }
+}
+@media all and (min-width:$screen-xl){
+    .document__detail{
+        width: 132px;
+    }
+}
+@media all and (min-width:$screen-xxl){
+    .document{
+        .document__list{
+            max-width: 492px;
+        }
+    }
+    .document__detail{
+        width: auto;
+        min-width: 236px;
+    }
+    .promotion__name{
+        width: 265px;
+    }
+    .promotion__game{
+        width: 222px;
+    }
+    .promotion__status{
+        width: 170px;
+    }
+    .promotion__links{
+        width: 283px;
+    }
+    .link-icon{
+        i{
+            margin-right: $spacing-internal/2;
+        }
+    }
+}
+@media all and (min-width:$screen-xxxl){
+    .document__detail{
+        min-width: 300px;
+    }
+}

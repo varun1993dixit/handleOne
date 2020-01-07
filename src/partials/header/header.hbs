@@ -1,0 +1,14 @@
+{{load this 'partials/header'}}
+<header>
+  {{#if page}}
+    <a href="#" class="toggle-sidemenu"><i class="la la-bars"></i></a>
+    {{/if}}
+    <div class="logo-wrap">
+    <a class="logo-wrap__img" href="/">
+      {{>media/media logo}}
+    </a>
+</div>  
+{{#if page}}
+{{>profile/profile profile}}  
+{{/if}}
+</header>

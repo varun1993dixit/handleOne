@@ -1,0 +1,28 @@
+  .heading-one{
+    @include set-font-size(1);
+    line-height: 1;
+    font-weight: $font-weight-bold;
+    margin-bottom: $spacing-mobile*2;
+  }
+  .heading-two{
+    @include set-font-size(2);
+  }
+  .heading-three{
+    @include set-font-size(3);
+  }
+  .heading-four{
+    @include set-font-size(5);
+    font-weight: $font-weight-medium;
+  }
+  .heading-five{
+    @include set-font-size(5);
+  }
+  .heading-six{
+    @include set-font-size(6);
+    font-weight: $font-weight-medium;
+  }
+  @media all and (min-width:1024px){
+    .heading-one{
+      margin-bottom: $spacing-large;
+    }
+  }

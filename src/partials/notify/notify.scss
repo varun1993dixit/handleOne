@@ -1,0 +1,46 @@
+.notify{
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: -72px;
+    background-color: $colour-white;
+    border: 1px solid $colour-grey-dark;
+    width: 320px;
+    padding: $spacing-internal;
+    .text-link{
+        margin-top: $spacing-internal;
+        display: inline-block;
+    }
+    &.active{
+        display: block;
+    }
+}
+.notify__list{
+    @include display-flex();
+    @include align-items(center);
+    @include justify-content(space-between);
+    border-bottom: 1px solid $colour-grey-dark;
+    padding: $spacing-mobile 0;
+    &:hover{
+        opacity: 0.75;
+    }
+    span{
+        padding-right: $spacing-mobile;
+    }
+    a{
+        i{
+            @include set-font-size(8);
+            color:$colour-black;
+        }
+    }
+}
+@media all and (min-width:$screen-sm){
+    .notify{
+        right: -142px;
+    }
+}
+@media all and (min-width:$screen-md){
+    .notify{
+        padding: $spacing-large;
+    }
+}

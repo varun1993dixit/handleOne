@@ -1,0 +1,23 @@
+.event{
+    @include display-flex();
+    @include align-items(center);
+    border-bottom: 1px solid $colour-grey-dark;
+    padding: $spacing-mobile 0; 
+}
+.event__profile{
+    background-color: $colour-black;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    span{
+        color: $colour-white;
+        @include set-font-size(8);
+        position: absolute;
+        top: 50%;
+        @include transform(translateY(-50%));
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+}

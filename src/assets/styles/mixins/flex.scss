@@ -1,0 +1,80 @@
+//flex mixins
+// <-- Flex
+@mixin display-flex() {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+@mixin flex($value: 1 1 auto) {
+    -webkit-box-flex: $value;
+    -webkit-flex:  $value;
+    -ms-flex:  $value;
+    flex:  $value;
+}
+@mixin flex-wrap($wrap) {
+    flex-wrap: $wrap;
+    -ms-flex-wrap: $wrap;
+    -webkit-flex-wrap: $wrap;
+}
+@mixin flex-direction($direction) {
+    -ms-flex-direction: $direction;
+    -webkit-flex-direction: $direction;
+    flex-direction: $direction;
+}
+@mixin justify-content($justify) {
+    -webkit-box-pack: $justify;
+    -webkit-justify-content: $justify;
+    -ms-justify-content: $justify;
+    justify-content: $justify;
+}
+@mixin align-items($align-item) {
+    -webkit-box-align: $align-item;
+    -webkit-align-items: $align-item;
+    -ms-flex-align: $align-item;
+    -ms-align-items: $align-item;
+    align-items: $align-item;
+}
+@mixin align-content($align-content) {
+    -webkit-align-content: $align-content;
+    -ms-align-content: $align-content;
+    align-content: $align-content;
+}
+@mixin align-self($align-self) {
+    -webkit-align-self: $align-self;
+    -ms-align-self: $align-self;
+    align-self: $align-self;
+}
+@mixin justify-self($justify-self) {
+    -webkit-justify-self: $justify-self;
+    -ms-justify-self: $justify-self;
+    justify-self: $justify-self;
+}
+@mixin order($order) {
+    -webkit-box-ordinal-group: $order;
+    -ms-flex-order: $order;
+    -webkit-order: $order;
+    order: $order;
+}
+@mixin flex-grow($flex-grow) {
+    -webkit-flex-grow: $flex-grow;
+    -moz-flex-grow: $flex-grow;
+    -ms-flex-grow: $flex-grow;
+    flex-grow: $flex-grow;
+}
+
+@mixin flex-shrink($flex-shrink) {
+    -webkit-flex-shrink: $flex-shrink;
+    -moz-flex-shrink: $flex-shrink;
+    -ms-flex-shrink: $flex-shrink;
+    flex-shrink: $flex-shrink;
+}
+
+@mixin flex-basis($flex-basis) {
+    -webkit-flex-basis: $flex-basis;
+    -moz-flex-basis: $flex-basis;
+    -ms-flex-basis: $flex-basis;
+    flex-basis: $flex-basis;
+}
+// Flex -->

@@ -1,0 +1,34 @@
+<div class="document">    
+    {{#if docList}}
+        <div class="document__list">
+            <div class="document__icon">
+                <i class="{{docIcon}}"></i>
+            </div>
+            {{>listing/listing}}
+        </div>
+    {{/if}}
+    {{#if promotionNames}}
+        <div class="promotion__name"><span class="promotion__text">{{promotionName}}</span></div>
+    {{/if}}
+    {{#if promotionGames}}
+        <div class="promotion__game"><span class="promotion__text">{{promotionGame}}</span></div>
+    {{/if}}
+    {{#if promotionStatus}}
+        <div class="promotion__status"><span class="status {{inactive}}">{{statusText}}</span></div>
+    {{/if}}
+    {{#if promotionLinks}}
+        <div class="promotion__links">
+            <a href="{{viewLink}}" class="link-icon"><i class="{{viewIcon}}"></i><span class="text-link">{{viewText}}</span></a>
+            <a href="{{cancelLink}}" class="link-icon link-icon--secondary"><i class="{{cancelIcon}}"></i><span class="text-link">{{cencelText}}</span></a>
+        </div>
+    {{/if}}
+    {{#if detail}}
+        <span class="document__detail">{{detail}}</span>
+    {{/if}}
+    {{#if status}}
+        {{>status/status status}}
+    {{/if}}
+    {{#if download}}
+        <a href="{{downloadLink}}" class="link-icon"><i class="{{downloadIcon}}"></i><span class="text-link">{{linkText}}</span></a>
+    {{/if}}
+</div>

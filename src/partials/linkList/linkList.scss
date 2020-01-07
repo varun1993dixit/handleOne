@@ -1,0 +1,22 @@
+.link-list{
+    @include display-flex();
+    @include align-items(center);
+    @include justify-content(space-between);
+    width: 100%;
+    color: $colour-black;
+    border-bottom: 1px solid $colour-grey-dark;
+    padding: $spacing-mobile 0;
+    > span{
+        letter-spacing: -0.42px;
+    }
+    i{
+        @include set-font-size(5);
+    }
+    &:last-child{
+        border-bottom: none;
+    }
+}
+.link-list__status{
+    @include display-flex();
+    @include align-items(center);
+}

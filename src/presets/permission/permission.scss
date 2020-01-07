@@ -1,0 +1,27 @@
+.permission{
+    padding: $spacing-internal;
+    min-height: 70vh;
+    .subtitle{
+        .heading-four{
+            background-color: $colour-white-fade;
+        }
+    }
+}
+@media all and (min-width:$screen-sm){
+    .permission{
+        min-height: 75vh;
+    }
+}
+@media all and (min-width:$screen-md){
+    .permission{
+        padding: $spacing-large*2 $spacing-large;
+        min-height: 57vh;
+    }
+}
+@media all and (min-width:$screen-xl){
+    .permission{
+        .warning{
+            max-width: 838px;
+        }
+    }
+}

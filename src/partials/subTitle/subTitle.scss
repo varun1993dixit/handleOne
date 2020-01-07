@@ -1,0 +1,41 @@
+.subtitle{
+    position: relative;
+    @include display-flex();
+    @include align-items(center);
+    margin-bottom: $spacing-mobile;
+    z-index: 1;
+    span{
+        display: inline-block;
+        width: 10px;
+        height: 20px;        
+    }
+    .heading-four{
+        display: inline-block;
+        background-color: $colour-white-fade;
+        padding-left: $spacing-internal/2;
+        padding-right: $spacing-internal/2;
+    }
+    &:after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        @include transform(translateY(-50%));
+        right: 0;
+        width: 100%;
+        height: 1px;
+        background-color: $colour-grey-dark;
+        z-index: -1;
+    }
+}
+@media all and (min-width:$screen-md){
+    .subtitle{
+        margin-bottom: $spacing-large;
+    }
+}
+@media all and (min-width:$screen-lg){
+    .subtitle{
+        span{
+            height: 24px;
+        }
+    }
+}

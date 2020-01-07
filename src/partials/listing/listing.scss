@@ -1,0 +1,15 @@
+.listing{
+    padding-left: $spacing-mobile;
+    width: calc(100% - 60px);
+    .heading-five{
+        @include set-font-size(12);
+        line-height: $line-height-small;
+    }
+}
+.listing__text{
+    @include set-font-size(13);
+    opacity: 0.6;
+}
+.listing__text--title{
+    margin-right: $spacing-internal/2;
+}

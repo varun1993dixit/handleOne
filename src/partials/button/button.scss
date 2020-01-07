@@ -1,0 +1,24 @@
+.btn{
+    height: 55px;
+    min-width: 72px;
+    text-align: center;
+    color:$colour-white;
+    @include set-font-size(6);
+    @include transition(0.3s);
+    padding: $spacing-internal $spacing-internal $spacing-internal $spacing-internal;
+    display: inline-block;
+    background: transparent linear-gradient(135deg, $colour-red 0%, $colour-red-dark 100%) 0% 0% no-repeat padding-box;
+    &:hover{
+       opacity: 0.75;
+    }
+}
+@media all and (min-width:$screen-sm){
+    .btn{
+        line-height: $line-height-small;
+    }
+}
+@media all and (min-width:$screen-lg){
+    .btn{
+        min-width: 105px;       
+    }
+}

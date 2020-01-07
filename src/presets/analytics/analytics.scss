@@ -1,0 +1,179 @@
+.report{
+    overflow: hidden;
+    position: relative;
+}
+.report__menu{
+    background-color:$colour-white;
+    padding: $spacing-internal $spacing-internal 0;
+    border: 1px solid $colour-grey-dark;
+    .subtitle{
+        .heading-four{
+            background-color: $colour-white;
+        }
+    }
+}
+.report__file{
+    @include transition(all 1s ease-in-out);
+    position: absolute;
+    right: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;   
+    background-color: $colour-white-fade;
+    .report__text{
+       padding: 0 $spacing-internal;
+    }
+    .subtitle{
+        margin: $spacing-internal;
+        .heading-four{
+            background-color: $colour-white-fade;
+        }
+    }
+    .document{
+        border: 1px solid $colour-grey-dark;
+        border-bottom-color: transparent;
+        @include align-items(center);
+        background-color: $colour-white;
+        padding-left: $spacing-internal;
+        padding-right: $spacing-internal;
+        .link-icon{
+            margin-top: 0;
+        }
+        &:nth-child(7){
+            border-bottom: 1px solid $colour-grey-dark;
+        }
+    }
+    &.active{
+        right: 0;
+        display: block;
+    }
+}
+.report__close{
+    display: inline-block;
+    background-color: $colour-white;
+    border: 1px solid $colour-grey-dark;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    i{
+        @include set-font-size(1);
+    }
+}
+.report__text{
+    @include set-font-size(6);
+    letter-spacing: -0.48px;
+    margin-bottom: $spacing-mobile;
+}
+.file-title{
+    background-color: $colour-white-fade;
+    padding: 0 $spacing-internal;
+    margin: $spacing-internal 0;
+    overflow: hidden;
+    position: relative;
+    .heading-six{
+        @include set-font-size(6);
+        display: inline-block;
+        background-color: $colour-white-fade;
+        position: relative;
+        z-index: 2;
+        padding-right: $spacing-internal;
+    }
+    &:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    @include transform(translateY(-50%));
+    left: 30px;
+    width: 100%;
+    height: 1px;
+    background-color: $colour-grey-dark;
+    z-index: 1;
+    }
+}
+@media all and (min-width:$screen-sm){
+    .report{
+        @include display-flex();
+    }
+    .report__menu{
+        width: 39.8%;
+    }
+    .report__file{
+        width: 60.2%;
+        padding: $spacing-internal $spacing-large;
+        position: static;
+        background-color: transparent;
+        @include transition(0s);
+        display: block;
+        .subtitle{
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0;
+        }
+        .document{
+            margin-bottom: $spacing-tablet;
+            border-bottom-color:$colour-grey-dark;
+            .document__list{
+                width: auto;
+            }
+            &:last-child{margin-bottom: 0;}
+        }
+        .report__text{
+            padding: 0;
+        }
+    }
+    .file-title{
+        margin-top: 0;
+        padding-left: 0;
+    }
+    .report__close{
+        display: none;
+    }
+}
+@media all and (min-width:$screen-md){
+    .report__menu{
+        padding: $spacing-desktop;
+        width: 42.4%;
+        .subtitle{
+            margin-bottom: $spacing-internal/2;
+        }
+    }
+    .report__file{
+        padding: $spacing-large;
+        width: 57.6%;
+        .document{
+            padding-left: $spacing-large;
+            padding-right: $spacing-large;
+        }
+    }
+    .file-title{
+        padding-top: $spacing-internal/2;
+        padding-bottom: $spacing-internal/2;
+    }
+}
+@media all and (min-width:$screen-xl){
+    .report__menu{
+        padding: $spacing-large;
+        overflow: hidden;
+    }
+    .file-title{
+        overflow: visible;
+    }
+    .report__file{
+        .report__text{
+            display: block;  
+        }
+    }
+    .report__text{
+        margin-bottom: $spacing-large;
+    }
+}
+@media all and (min-width:$screen-xxl){
+    .report__menu{
+        width: 33%;
+        max-width: 532px;
+    }
+    .report__file{
+        width: 67%;
+    }
+}

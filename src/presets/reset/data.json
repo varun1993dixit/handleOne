@@ -1,0 +1,44 @@
+{
+    "banner":{
+        "alt":"banner",
+        "src": "banner-tab.jpg"
+    },
+    "tagOne":"h1",
+    "text":"Please enter your email address. You will receive a link to create a new password via email.",
+    "para":true,
+    "inputs":[
+     {
+        "label": "Email Address",
+        "placeholder": "",
+        "type": "email",
+        "message":"Invalid Email Address",
+        "icon":"las la-envelope"
+    }],
+    "buttons":[{
+        "text":"Reset Password",
+        "gradientStart":"#ED1D45",
+        "gradientEnd":"#B8122C",
+        "link":"#"
+    }],
+    "title":"Forgotten Password",
+    "account":[{
+        "register":"Register or Login",
+        "tagSix":"h6",
+       "accountDetail" :[{
+        "accountText":"If you don't have an account, please",        
+        "text":"Register",
+        "link":{
+            "text":"register",
+            "href":"register"
+        }      
+     },
+     {
+        "accountText":"Alternatively, if you already have an account",        
+        "text":"Login",
+        "link":{
+            "text":"login",
+            "href":""
+        }      
+     }]
+    }]
+}

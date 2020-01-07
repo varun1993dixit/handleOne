@@ -1,0 +1,116 @@
+.profile{
+    @include display-flex();
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.profile__notification{
+    position: relative;
+    border-left: 1px solid $colour-grey-dark;
+    border-right: 1px solid $colour-grey-dark;
+    width: 62px;
+    cursor: pointer;
+    @include display-flex();
+        @include align-items(center);
+        @include justify-content(center);
+    > a{
+        color: $colour-black;
+        @include set-font-size(5);
+        pointer-events: none;
+    }
+}
+.notification-count{
+    background-color: $colour-red;
+    color:$colour-white;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    @include display-flex();
+    @include align-items(center);
+    @include justify-content(center);
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1;
+}
+.profile__user{
+    @include display-flex();
+    @include align-items(center);
+    @include justify-content(center);
+    position: relative;
+    cursor: pointer;
+    .notify{
+        right: 0;
+        .text-link{
+            display: none;
+        }
+    }    
+}
+.profile__account{
+    @include display-flex();
+    @include align-items(center);
+    @include justify-content(center);
+    width: 71px;
+    pointer-events: none;
+    cursor: pointer;
+}
+.profile__icon{
+    @include display-flex();
+    @include align-items(center);
+    @include justify-content(center);
+    @include set-font-size(7);
+    width: 30px;
+    height: 30px;
+    background-color: $colour-black;
+    color: $colour-white;
+    border-radius:50%;
+    text-transform: uppercase;    
+}
+.profile__title{
+    color:$colour-black;
+    display: none;
+}
+.profile__more{
+    display: none;
+    pointer-events: none;
+    i{
+        color: $colour-black;
+    }
+}
+@media all and (min-width:$screen-sm){
+    .profile__user{
+        padding-left: $spacing-internal;
+        padding-right: $spacing-internal;
+    }
+    .profile__account{
+        width: auto;
+    }
+    .profile__title{
+        display: inline-block;
+        margin-left: $spacing-internal/2;
+        margin-right: $spacing-internal/2;
+
+    }
+    .profile__more{
+        display: inline-block;
+    }
+}
+@media all and (min-width:$screen-lg){
+    .profile__icon{
+        width: 60px;
+        height: 60px;
+    }
+    .profile__notification{
+        width: 78px;
+    }
+}
+@media all and (min-width:$screen-xl){
+    .profile__user{
+        padding-left: $spacing-internal*2;
+        padding-right: $spacing-internal*2;
+    }
+}

@@ -1,0 +1,23 @@
+{{load this 'presets/marketingPos'}}
+{{#> masterpage }}
+{{>sidebar/sidebar}}
+    <main class="right-block">
+    <div class="marketing-pos">
+        <a href="#" class="back"><i class="las la-times"></i></a>
+        <div class="marketing-pos__title">
+            <{{tagOne}} class="heading-one">{{>title/title titles}}</{{tagOne}}>
+            {{>button/button buttonss}}
+        </div>
+        <div class="all-games slider-wrap--game">
+            {{#teaser}}
+                {{>subtitle/subtitle subtitle}}
+                <div class="all-games__cards"> 
+                    {{#teaserList}}                       
+                    {{>teaser/teaser}}     
+                    {{/teaserList}}                   
+                </div>
+            {{/teaser}}
+        </div>
+    </div>  
+    </main>
+{{/ masterpage }}

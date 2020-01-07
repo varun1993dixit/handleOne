@@ -1,0 +1,46 @@
+{
+    "page":"true",
+    "tagOne":"h1",
+    "titleFortune":{
+        "title":"Fortune Favours"
+    },
+    
+    "paragraph":"Duis eu mi velit. Nam non lorem ac ligula venenatis interdum. Nulla luctus, ipsum consequat rhoncus molestie, mauris leo semper felis, id ultrices purus arcu id quam. Pellentesque nec risus eget justo egestas",
+    "backLink":"#",
+    "linkList":[
+        {
+            "href":"#",
+            "text":"Game Brief",
+            "icon":"la la-file-pdf"
+        },
+        {
+            "href":"#",
+            "text":"Game Screens",
+            "icon":"la la-desktop"
+        },
+        {
+            "href":"#",
+            "text":"Game Assets",
+            "icon":"las la-cloud-download-alt"
+        },
+        {
+            "href":"#",
+            "text":"Marketing POS",
+            "icon":"las la-bullhorn"
+        },
+        {
+            "href":"#",
+            "text":"Game Demo",
+            "icon":"lab la-youtube"
+        },
+        {
+            "href":"#",
+            "text":"Promo Video",
+            "icon":"lab la-youtube"
+        }
+    ],
+    "image":{
+        "src":"fortune.jpg",
+        "alt":"img"
+    }
+}

@@ -1,0 +1,28 @@
+//layout mixins
+@mixin set-width($manipulator:1){
+    @media (min-width: 768px){
+        width: 748px * $manipulator;
+		max-width: 748px;
+    }
+    @media (min-width: 992px){
+        width: 980px * $manipulator;
+		max-width:980px;
+    }
+    @media (min-width: 1024px){
+        width: 968px * $manipulator;
+		max-width:968px;
+    }
+    @media (min-width: 1200px){
+        width: 1160px * $manipulator;
+    }
+    @media (min-width: 1300px){
+        width: 1271px * $manipulator;
+        max-width: 1271px;
+    }
+}
+
+@mixin columns($columns){
+    -webkit-columns: $columns; /* Chrome, Safari, Opera */
+    -moz-columns: $columns; /* Firefox */
+    columns: $columns;
+}

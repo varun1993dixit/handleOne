@@ -1,0 +1,111 @@
+.teaser{
+    cursor: pointer;
+    width: 279px;
+    >a{
+        display: block;
+    }
+    img{
+        display: block;
+        width: 100%;
+    }  
+    p{
+        @include set-font-size(6);
+        line-height: $line-height-large;
+        margin-bottom: $spacing-mobile;
+    }      
+    .play__media{
+        pointer-events: none;
+    }
+}
+.teaser__menu-link{
+    display: none;
+    position: absolute;
+    top: 0%;
+    right: 0;
+}
+.teaser__detail{
+    border: 1px solid $colour-grey-dark;
+    border-top: none;
+    padding: $spacing-internal;
+    background-color: $colour-white;
+    min-height: 140px;
+    position: relative;
+    .heading-six{
+        font-weight: $font-weight-bold;
+        color: $colour-black;
+        margin-bottom: $spacing-internal/2;
+        line-height: $line-height-title*1.2;
+    }
+    > span{
+        color: $colour-black;
+        opacity: 0.6;
+    }
+}
+.teaser__menu{
+    position: absolute;
+    top: calc(100% - 10px);
+    width: 270px;
+    right: 0;
+    display: none;
+    z-index: 5;
+    &.active{
+        display: block;
+    }
+    .menu{
+        width: 100%;
+    }
+}
+@media all and (min-width:$screen-sm){
+    .teaser{
+        width: 219px;
+    }
+    .teaser__detail{
+        min-height: 163px;        
+    }
+    .teaser__menu{
+        right: -7px;
+        width: 227px;
+    }
+}
+@media all and (min-width:$screen-md){
+    .teaser__detail{
+        min-height: 155px;
+    }
+    .teaser{
+        width: 294px;
+    }
+    .teaser__menu{
+        width: 300px;
+    }
+}
+@media all and (min-width:$screen-lg){
+    .teaser{
+        width: 304px;
+    }
+    .teaser__detail{
+        padding-left: $spacing-large;
+        padding-right: $spacing-large;
+    }
+    .teaser__menu{
+        right: 10px;
+    }
+}
+@media all and (min-width:$screen-xl){
+    .teaser{
+        width: 365px;
+    }
+    .teaser__menu{
+        width: 359px;
+        right: 10px;
+    }
+}
+@media all and (min-width:$screen-xxxl){
+    .teaser__detail{
+        min-height: 160px;
+    }
+}
+@media all and (min-width:$screen-large){
+    .teaser__detail{
+        min-height: 140px;
+    }
+}

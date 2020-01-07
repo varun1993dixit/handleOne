@@ -1,0 +1,25 @@
+{{load this 'presets/sidebar'}}
+<div data-simplebar class="sidebar">
+    <ul class="sidebar__menu">
+        {{#each sideBar}}
+        <li><a class="{{title}}" href="{{link}}"><i class="{{icon}}"></i>{{title}}</a>
+        <ul class="sidebar__submenu">
+            {{#each submenu}}
+            <li><a class="{{subtitle}}" href="{{subLink}}"><i></i>{{subtitle}}</a></li>
+            {{/each}}
+        </ul>
+        </li>
+        {{/each}}
+    </ul>
+    <div class="sidebar__bottom">
+        <div class="sidebar__feedback">
+             {{#buttons}}
+             {{>button/button}}
+             {{/buttons}}
+        </div>
+        <div class="sidebar__social">
+            <p>{{title}}</p>
+            {{>socialMedia/socialMedia}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+{
+    "footerr":[    
+    {
+        "text":"Terms of Use",
+        "href":"#"
+    },
+    {
+        "text":"Cookie Policy",
+        "href":"#"
+    }
+],
+"footerText":[
+    {
+        "title":"Copyright © 2018 SG Gaming."
+    },
+    {
+        "title":"All rights reserved."
+    }
+]
+}

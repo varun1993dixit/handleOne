@@ -1,0 +1,123 @@
+.filter{
+    padding: $spacing-mobile $spacing-internal 0;
+    .btn{
+        width: 100%;
+        margin-bottom: $spacing-mobile;
+    }
+}
+.filter__options{
+    display: none;
+    &.active{
+        display: block;
+    }
+}
+.all-games__cards{
+    @include display-flex();
+    @include flex-wrap(wrap);
+    margin-left: -$spacing-mobile/3;
+    margin-right: -$spacing-mobile/3;
+    .teaser{
+        padding: 0 $spacing-mobile/3;
+        width: 290px;
+    }
+}
+.all-games{
+   padding: 0 $spacing-internal;
+   .subtitle{
+       width: 100%;
+   }
+   .teaser{
+       margin-bottom: $spacing-internal;
+   }
+}
+@media all and (min-width:$screen-sm){
+    .filter{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding: $spacing-internal 0 0;
+        .btn{
+            display: none;
+        }
+    }
+    .filter__options{
+        display: block;
+    }
+    .search__filter{
+        display: block;
+        .auto-suggest{
+            width: 100%;
+        }
+        .filter__options{
+            @include display-flex();
+            @include justify-content(space-between);
+        }
+        .form__input{
+            width: calc(50% - 15px);
+            margin-bottom: 0;
+        }
+    }
+    .all-games__cards{
+        padding-top: $spacing-internal/2;
+        padding-bottom: $spacing-internal;
+        @include display-flex();
+        @include flex-wrap(wrap);
+        @include  justify-content(flex-start);
+        margin: 0 -$spacing-mobile;
+        .teaser{
+            width: 378px;
+            padding: 0 $spacing-mobile;
+        }
+    }
+}
+@media all and (min-width:$screen-md){
+    .all-games__cards{
+        .teaser{
+            width: 320px;
+        }
+    }
+    .all-games{
+        padding: 0 $spacing-large;
+    }
+}
+@media all and (min-width:$screen-lg){
+    .search__filter{
+        .auto-suggest{
+            width: 630px;
+        }
+        .filter{
+            width: 773px;
+        }
+    }
+    .all-games__cards{
+        padding-top: $spacing-internal;
+        .teaser{
+            width: 331px;
+            margin-bottom: $spacing-large;
+        }
+    }
+}
+@media all and (min-width:$screen-xl){
+    .all-games__cards{
+        .teaser{
+            width: 395px;
+        }
+    }
+}
+@media all and (min-width:$screen-xxl){
+    .search__filter{
+        @include display-flex();
+        @include justify-content(space-between);
+        @include align-items(flex-end);
+        .auto-suggest{
+            width: calc(50% - 15px);
+            margin-right: $spacing-large/2;
+        }
+        .filter{
+            width: 50%;
+            padding-top: 0;
+            padding-left: $spacing-large/2;
+        }
+    }
+}

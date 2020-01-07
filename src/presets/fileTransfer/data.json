@@ -1,0 +1,129 @@
+{
+    "page":true,
+    "mainTitle":{
+            "tagOne":"h1",
+            "gradientStart": "#510077",
+            "gradientMiddle": "#9900BC",
+            "gradientEnd": "#EA50D8",
+            "titleText": "File Transfer",
+            "imageSrc":"",
+            "altText":""
+        },
+        "dropzone":{
+            "para":"Below is a list of uploads we require from you",
+            "upload":"Upload New Documents",
+            "icon":"las la-cloud-upload-alt"
+        },
+    "fileData":[
+        {
+            "subtitle":{
+                "subTitle": "Received Files",
+                "colour": "#F48F27",
+                "tagFour":"h4"
+            },
+            "document":[
+                {
+                    "tagFive":"h5",
+                    "docIcon":"lar la-file-alt",
+                    "title":"Reportname.PDF",
+                    "subTitle":"Quisque mattis tellus et neque varius, porttitor ultrices dui viverra….",
+                    "author":"",
+                    "dateTime":"19/02/2019 : 09:05 AM",
+                    "downloadLink":"#",
+                    "downloadIcon":"las la-cloud-download-alt",
+                    "linkText":"Download",
+                    "docList":true,
+                    "download":true
+                },
+                {
+                    "tagFive":"h5",
+                    "docIcon":"lar la-file-alt",
+                    "title":"Reportname.PDF",
+                    "subTitle":"Quisque mattis tellus et neque varius, porttitor ultrices dui viverra….",
+                    "author":"",
+                    "dateTime":"19/02/2019 : 09:05 AM",
+                    "downloadLink":"#",
+                    "downloadIcon":"las la-cloud-download-alt",
+                    "linkText":"Download",
+                    "docList":true,
+                    "download":true
+                }
+            ]
+        },
+        {
+            "subtitle":{
+                "subTitle": "Your Uploads",
+                "colour": "#7CD605",
+                "tagFour":"h4"
+            },
+            "document":[
+                {
+                    "tagFive":"h5",
+                    "docIcon":"lar la-file-alt",
+                    "title":"Reportname.PDF",
+                    "subTitle":"Quisque mattis tellus et neque varius, porttitor ultrices dui viverra….",
+                    "author":"",
+                    "dateTime":"19/02/2019 : 09:05 AM",
+                    "downloadLink":"#",
+                    "downloadIcon":"las la-cloud-download-alt",
+                    "linkText":"Download",
+                    "docList":true,
+                    "download":true
+                },
+                {
+                    "tagFive":"h5",
+                    "docIcon":"lar la-file-alt",
+                    "title":"Reportname.PDF",
+                    "subTitle":"Quisque mattis tellus et neque varius, porttitor ultrices dui viverra….",
+                    "author":"",
+                    "dateTime":"19/02/2019 : 09:05 AM",
+                    "downloadLink":"#",
+                    "downloadIcon":"las la-cloud-download-alt",
+                    "linkText":"Download",
+                    "docList":true,
+                    "download":true
+                },
+                {
+                    "tagFive":"h5",
+                    "docIcon":"lar la-file-alt",
+                    "title":"Reportname.PDF",
+                    "subTitle":"Quisque mattis tellus et neque varius, porttitor ultrices dui viverra….",
+                    "author":"",
+                    "dateTime":"19/02/2019 : 09:05 AM",
+                    "downloadLink":"#",
+                    "downloadIcon":"las la-cloud-download-alt",
+                    "linkText":"Download",
+                    "docList":true,
+                    "download":true
+                },
+                {
+                    "tagFive":"h5",
+                    "docIcon":"lar la-file-alt",
+                    "title":"Reportname.PDF",
+                    "subTitle":"Quisque mattis tellus et neque varius, porttitor ultrices dui viverra….",
+                    "author":"",
+                    "dateTime":"19/02/2019 : 09:05 AM",
+                    "downloadLink":"#",
+                    "downloadIcon":"las la-cloud-download-alt",
+                    "linkText":"Download",
+                    "docList":true,
+                    "download":true
+                }
+            ]
+        }
+    ],
+    "tabs":[
+        {
+            "button":{
+                "text": "Your Files",
+                "link":"#"
+            }
+        },
+        {
+            "button":{
+                "text": "Upload File",
+                "link":"#"
+            }
+        }
+    ]
+}

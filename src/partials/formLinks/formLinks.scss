@@ -1,0 +1,14 @@
+.text-link{
+    color: $colour-black;
+    text-decoration: underline;
+    &:hover{
+        text-decoration: none;
+    }
+}
+@media all and (min-width:$screen-lg){
+    .text-links{
+        padding-top: $spacing-internal;
+        padding-right: $spacing-internal;
+        margin-bottom: $spacing-desktop*2;
+    }
+}

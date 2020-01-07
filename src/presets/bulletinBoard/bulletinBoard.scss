@@ -1,0 +1,110 @@
+.bulletin-board__wrap{
+    position: relative;
+    padding-bottom: $spacing-internal*2;    
+}
+.bulletin-board{
+    padding: 0 $spacing-internal;
+    background-color: $colour-white;
+}
+.bulletin-board__content{
+    height: 312px;
+    overflow: hidden;
+    .bulletin{
+        padding-right: 0;
+        .arrow-link{
+            display: none;
+        }
+    }
+}
+.bulletin-board__down{
+    width: 40px;
+    height: 40px;
+    @include display-flex();
+    @include justify-content(center);
+    @include align-items(center);
+    border: 1px solid $colour-grey-dark;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 12px;
+    cursor: pointer;
+    background: $colour-white;
+    z-index: 1;
+    i{
+        color: $colour-blue-dark;
+        @include set-font-size(8);
+        pointer-events: none;
+    }
+    &:after{
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 15px;
+        height: 15px;
+    }
+}
+.bulletin-board__up{
+    width: 40px;
+    height: 40px;
+    @include display-flex();
+    @include justify-content(center);
+    @include align-items(center);
+    border: 1px solid $colour-grey-dark;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+    cursor: pointer;
+    background: $colour-white;
+    z-index: 1;
+    i{
+        color: $colour-blue-dark;
+        @include set-font-size(8);
+        pointer-events: none;
+    }
+    &:after{
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 15px;
+        height: 15px;
+    }
+}
+@media all and (min-width:$screen-sm){
+    .bulletin-board{
+        width: calc(50% - 15px);
+        border: 1px solid $colour-grey-dark;
+    }
+    .bulletin-board__wrap{
+        padding-bottom: $spacing-internal*2;
+    }
+    .bulletin-board__content{
+        height: 301px;
+    }
+    .bulletin-board__down{
+        bottom: 12px;
+    }
+}
+@media all and (min-width:$screen-lg){
+    .bulletin-board__content{
+        height: 323px;
+    }
+}
+@media all and (min-width:$screen-xl){
+    .bulletin-board{
+        padding: 0 $spacing-large;
+    }
+    .bulletin-board__content{
+        height: 341px;
+    }
+}
+@media all and (min-width:$screen-xxxl){
+    .bulletin-board{
+        width: calc(33.3% - 15px);
+    }
+    .bulletin-board__content{
+        height: 365px;
+    }
+}

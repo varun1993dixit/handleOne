@@ -1,0 +1,259 @@
+{
+    "page": "true",
+    "mainTitle": {
+            "tagOne":"h1",
+            "gradientStart": "#DD007C",
+            "gradientMiddle": "#FF3122",
+            "gradientEnd": "#FFBB00",
+            "titleText": "Games & Marketing",
+            "imageSrc":"assets/images/teaser-alt1.png",
+            "altText":"title image"
+        },
+    "buttonGames":{
+        "text": "View All Games",
+        "link": "#"
+    },
+    "autosuggest": [
+        {
+            "buttons": {
+                "text": "Search",
+                "link": "#"
+            },
+            "placeholder": "Search for Games…",
+            "type": "text",
+            "icon": "la la-search"
+        }
+    ],
+    "sliderBar": [
+        {
+            "subtitle": {
+                "subTitle": "This Months Games",
+                "colour": "#DD007C",
+                "tagFour":"h4"
+            },
+            "teaser": [
+                
+                {
+                    "title": "Fortune Favours",
+                    "href": "#",
+                    "date": "",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "fortune.jpg",
+                        "alt": "teaser"
+                    },
+                    "linkShow":true,
+                    "linkList":[
+                        {
+                            "href":"#",
+                            "text":"Hardware Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },    
+                        {
+                            "href":"#",
+                            "text":"Back Office Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":" OPS Quick Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":"Marketing POS",
+                            "icon":"las la-cloud-download-alt"
+                        }
+                    ]
+                },
+                {
+                    "title": "Grease",
+                    "href": "#",
+                    "date": "",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "grease.jpg",
+                        "alt": "teaser"
+                    },
+                    "linkShow":true,
+                    "linkList":[
+                        {
+                            "href":"#",
+                            "text":"Hardware Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },    
+                        {
+                            "href":"#",
+                            "text":"Back Office Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":" OPS Quick Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":"Marketing POS",
+                            "icon":"las la-cloud-download-alt"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subtitle": {
+                "subTitle": "Coming Next",
+                "colour": "#4C0FB9",
+                "tagFour":"h4"
+            },
+            "teaser": [
+                {
+                    "title": "Hercules",
+                    "href": "#",
+                    "date": "",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "hercules.jpg",
+                        "alt": "teaser"
+                    },
+                    "linkShow":true,
+                    "linkList":[
+                        {
+                            "href":"#",
+                            "text":"Hardware Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },    
+                        {
+                            "href":"#",
+                            "text":"Back Office Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":" OPS Quick Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":"Marketing POS",
+                            "icon":"las la-cloud-download-alt"
+                        }
+                    ]
+                },
+                {
+                    "title": "Inca Hoots",
+                    "href": "#",
+                    "date": "",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "hoot.jpg",
+                        "alt": "teaser"
+                    },
+                    "linkShow":true,
+                    "linkList":[
+                        {
+                            "href":"#",
+                            "text":"Hardware Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },    
+                        {
+                            "href":"#",
+                            "text":"Back Office Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":" OPS Quick Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":"Marketing POS",
+                            "icon":"las la-cloud-download-alt"
+                        }
+                    ]
+                },
+                {
+                    "title": "Raging Rhino",
+                    "href": "#",
+                    "date": "",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "rhino.jpg",
+                        "alt": "teaser"
+                    },
+                    "linkShow":true,
+                    "linkList":[
+                        {
+                            "href":"#",
+                            "text":"Hardware Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },    
+                        {
+                            "href":"#",
+                            "text":"Back Office Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":" OPS Quick Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":"Marketing POS",
+                            "icon":"las la-cloud-download-alt"
+                        }
+                    ]
+                }
+                
+                
+            ]
+        },
+        {
+            "subtitle": {
+                "subTitle": "Previous Games",
+                "colour": "#0FC8F1",
+                "tagFour":"h4"
+            },
+            "teaser": [
+                {
+                    "title": "Monopoly On The Money",
+                    "href": "#",
+                    "date": "",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "monkey.jpg",
+                        "alt": "teaser"
+                    },
+                    "linkShow":true,
+                    "linkList":[
+                        {
+                            "href":"#",
+                            "text":"Hardware Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },    
+                        {
+                            "href":"#",
+                            "text":"Back Office Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":" OPS Quick Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":"Marketing POS",
+                            "icon":"las la-cloud-download-alt"
+                        }
+                    ]
+                }
+            ]
+        }
+        
+    ]
+    
+}

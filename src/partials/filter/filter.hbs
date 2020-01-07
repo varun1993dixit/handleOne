@@ -1,0 +1,13 @@
+<div class="search search__filter">
+    {{#autosuggest}}
+    {{>autoSuggest/autoSuggest}}
+    {{/autosuggest}}
+    <div class="filter">
+        {{>button/button buttonFilter}}
+        <div class="filter__options">
+            {{#select}}
+            {{>forms/selectBox/select}}
+            {{/select}}
+        </div>
+    </div>
+</div>

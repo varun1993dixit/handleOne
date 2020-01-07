@@ -1,0 +1,38 @@
+<form class="form">
+    <{{tagOne}} class="heading-one">{{>title/title}}</{{tagOne}}>
+    {{#if para}}
+        <p class="form__head-text">{{text}}</p>
+    {{/if}}
+    {{#if inputs}}
+        {{#inputs}}
+            {{>forms/input/input}}
+        {{/inputs}}
+    {{/if}}
+    {{#if select}}
+        {{#select}}
+            {{>forms/selectBox/select}}
+        {{/select}}
+    {{/if}}
+    {{#if checkbox}}
+        {{>forms/checkbox/checkbox}}
+    {{/if}}
+    {{#if buttons}}
+        <div class="form__links form__links--big">
+            <div class="btn-wrap">
+                {{#buttons}}
+                {{>button/button}}
+                {{/buttons}}
+            </div>
+            {{#if formLinks}}
+                <div class="link-wrap">
+                    {{#formLinks}}
+                    {{>formLinks/formLinks}}
+                    {{/formLinks}}
+                </div> 
+            {{/if}}
+        </div>
+    {{/if}}
+    {{#account}}
+        {{>account/account}}
+    {{/account}}
+</form>

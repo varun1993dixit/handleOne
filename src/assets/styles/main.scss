@@ -1,0 +1,147 @@
+@import "reset.scss";
+@import "bootstrap-grid/bootstrap-grid.scss";
+@import "variables.scss";
+@import "mixins/flex.scss";
+@import "mixins/layout.scss";
+@import "mixins/custom.scss";
+@import "mixins/spacing.scss";
+@import "mixins/typography.scss";
+@import "mixins/gradient.scss"; 
+@import "../../partials/title/title.scss";
+@import "../../partials//header/header.scss";
+@import "../../partials/footer/footer.scss";
+@import "../../presets/login/login.scss";
+@import "../../partials/media/media.scss";
+@import "../../partials/banner/banner.scss";
+@import "../../partials/commonForm/commonForm.scss";
+@import "../../partials/forms/input/input.scss";
+@import "../../partials/formLinks/formLinks.scss";
+@import "../../presets/sidebar/sidebar.scss";
+@import "../../partials/button/button.scss";
+@import "../../partials/account/account.scss";
+@import "../../partials/forms/selectBox/select.scss";
+@import "../../partials/forms/checkbox/checkbox.scss";
+@import "../../partials/socialMedia/socialMedia.scss";
+@import "../../partials/mainTitle/mainTitle.scss";
+@import "../../presets/info/info.scss";
+@import "../../../node_modules/simplebar/dist/simplebar.css";
+@import "../../partials/subTitle/subTitle.scss";
+@import "../../partials/teaser/teaser.scss";
+@import "../../partials/profile/profile.scss";
+@import "../../partials/slider/slider.scss";
+@import "../../partials/teaserAlt/teaserAlt.scss";
+@import "../../presets/homepage/homepage.scss";
+@import "../../partials/bannerSlider/bannerslider.scss";
+@import "../../partials/calendar/calendar.scss";
+@import "../../partials/bulletin/bulletin.scss";
+@import "../../partials/listing/listing.scss";
+@import "../../presets/bulletinBoard/bulletinBoard.scss";
+@import "../../presets/allBulletins/allBulletins.scss";
+@import "../../partials/event/event.scss";
+@import "../../presets/allEvents/allEvents.scss";
+@import "../../presets/allNotification/allNotification.scss";
+@import "../../partials/notification/notification.scss";
+@import "../../presets/gamesMarketting/gamesMarketting.scss";
+@import "../../partials/notify/notify.scss";
+@import "../../partials/autoSuggest/autoSuggest.scss";
+@import "../../partials/linkList/linkList.scss";
+@import "../../partials/menu/menu.scss";
+@import "../../presets/fortuneFavours/fortuneFavours.scss";
+@import "../../partials/warning/warning.scss";
+@import "../../presets/permission/permission.scss";
+@import "../../partials/teaserMenu/teaserMenu.scss";
+@import "../../presets/allGames/allGames.scss";
+@import "../../presets/marketingPos/marketingPos.scss";
+@import "../../presets/myPromotions/myPromotions.scss";
+@import "../../presets/promotion/promotion.scss";
+@import "../../partials/blurb/blurb.scss";
+@import "../../partials/template/template.scss";
+@import "../../presets/request/request.scss";
+@import "../../partials/summary/summary.scss";
+@import "../../presets/tournamentVideo/tournamentVideo.scss";
+@import "../../presets/products/products.scss";
+@import "../../partials/widget/widget.scss";
+@import "../../presets/fileTransfer/fileTransfer.scss";
+@import "../../partials/document/document.scss";
+@import "../../partials/status/status.scss";
+@import "../../partials/dropzone/dropzone.scss";
+@import "../../partials/sidemenu/sidemenu.scss";
+@import "../../presets/analytics/analytics.scss";
+@import "../../presets/videoGallery/videoGallery.scss";
+@import "../../partials/forms/textarea/textarea.scss";
+@import "../../partials/forms/radio/radio.scss";
+@import "../../presets/feedback/feedback.scss";
+@import "../../partials/table/table.scss";
+@import "../../partials/overlay/overlay.scss";
+@import "../../presets/analyticsLatest/analyticsLatest.scss";
+
+html {
+  font-size: 62.5%;
+  *{
+      box-sizing: border-box;
+      font-family: inherit;
+  }
+}
+
+body {
+  @include set-font-size();
+  font-weight: $font-weight-body;
+  @include set-line-height();
+  background-color: $colour-white-fade;
+  color: $colour-black; 
+  font-family: $font-family-body;
+}
+.wrapper{
+  padding-top: $spacing-internal*3;
+  overflow: hidden;
+}
+.no-scroll{
+  overflow: hidden;
+}
+.scroll-y{
+  overflow-y: auto;
+}
+.container{
+  margin: auto;
+  position: relative;
+  @include set-width();
+  .container{
+    width: 100%;
+  }
+}
+.hidden{
+  display: none !important;
+}
+.hide-mobile{
+  @media  (max-width: 767px) {
+    display: none !important;
+  }
+}
+.hide-tablet{
+  @media(min-width: 768px) and (max-width: 1023px){
+    display: none !important;
+  }
+}
+.hide-laptop{
+  @media(min-width: 1024px){
+    display: none !important;
+  }
+}
+.hide-desktop{
+  @media(min-width: 1200px) {
+    display: none !important;
+  }
+}
+.show-desktop{
+  @media(min-width: 1200px) {
+    display: block !important;
+  }
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+@media all and (min-width:$screen-lg){
+  .wrapper{
+    padding-top: $spacing-internal*5;
+  }
+}

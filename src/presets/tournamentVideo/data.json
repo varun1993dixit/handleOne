@@ -1,0 +1,71 @@
+{
+    "page":true,
+    "banner":{
+        "alt":"banner",
+        "src": "banner-promotion.jpg",
+        "mediaVideo":true,
+        "mediaLink":"#",
+        "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk"
+    },
+    "gameVideo":{
+        "alt":"video",
+        "src": "tournament.jpg",
+        "mediaVideo":true,
+        "mediaLink":"#",
+        "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk"
+    },
+    "titles":"Machine Tournament",
+    "tagFour":"h4",
+    "tagOne":"h1",
+    "blurbTitle":"What is a Machine Tournament?",
+    "blurbText":"A machine tournament is a competition between players to see who can get the highest score on a particular game or set of games. The player is issued with a starting balance and their final score is based on how much has been won when the time is up. Prizes can be awarded to top scorers. A machine tournament is a competition between players to see who can get the highest score on a particular game or set of games. The player is issued with a starting balance and their final score is based on how much has been won when the time is up. Prizes can be awarded to top scorers.",
+    "moreText":"Read More",
+    "lessText":"Read Less",
+    "subtitleInfo": {
+        "subTitle": "Information",
+        "colour": "#DD007C",
+        "tagFour":"h4"
+    },
+    "teaser": [
+        {
+            "title": "Request Promotion",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "info4.jpg",
+                "alt": "teaser"
+            }
+        },
+        {
+            "title": "How To Run",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "teaser2.jpg",
+                "alt": "teaser"
+            }
+        },
+        {
+            "title": "Marketing Support",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "info3.jpg",
+                "alt": "teaser"
+            }
+        },
+        {
+            "title": "Terms & Conditions",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "tc.jpg",
+                "alt": "teaser"
+            }
+        }
+    ]
+}

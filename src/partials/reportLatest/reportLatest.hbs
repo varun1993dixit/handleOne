@@ -1,0 +1,15 @@
+<div class="report">
+    <div class="report__menu">
+        {{>subtitle/subtitle reportTitle}}
+        <p class="report__text">{{menuPara}}</p>
+        {{>sideMenu/sideMenu}}
+    </div>
+    <div class="report__file report__file--latest">
+        <span class="report__close"><i class="las la-times"></i></span>
+        {{>subtitle/subtitle fileTitle}}
+        <p class="report__text">{{reportPara}}</p>
+        {{#document}}
+            {{>document/document}}
+        {{/document}}   
+    </div>
+</div>

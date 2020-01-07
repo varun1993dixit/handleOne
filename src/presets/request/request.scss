@@ -1,0 +1,49 @@
+.request-head{
+    padding: $spacing-internal;
+}
+.request-head{
+    .heading-one{
+        margin-bottom: $spacing-mobile/3;
+    }
+}
+.request-subtitle{
+    padding: $spacing-mobile $spacing-internal;
+    .subtitle{
+        margin-bottom: 0;
+        .heading-four{
+            background-color: $colour-white-fade;
+        }
+    }
+}
+@media all and (min-width:$screen-sm){
+    .request-head{
+        padding: $spacing-internal $spacing-large;
+        .heading-one{
+            margin-bottom: $spacing-tablet/2;
+        }
+    }
+    .request-subtitle{
+        padding: $spacing-mobile $spacing-desktop;
+    }
+}
+@media all and (min-width:$screen-md){
+    .request-subtitle{
+        padding-left: $spacing-large;
+        padding-right: $spacing-large;
+    }
+}
+@media all and (min-width:$screen-lg){
+    .request-head{
+        padding: $spacing-large;
+        .heading-one{
+            margin-bottom: $spacing-desktop;
+        }
+    }
+}
+@media all and (min-width:$screen-xl){
+    .request-subtitle{
+        padding-left: 0;
+        padding-right: 0;
+        padding: $spacing-internal 0;
+    }
+}

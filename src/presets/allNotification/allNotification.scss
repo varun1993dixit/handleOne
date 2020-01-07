@@ -1,0 +1,9 @@
+.notification-wrap{
+    padding: $spacing-mobile $spacing-mobile ;
+    background-color: $colour-white;
+}
+@media all and (min-width:$screen-xl){
+    .notification-wrap{
+        padding: $spacing-internal $spacing-large;
+    }
+}

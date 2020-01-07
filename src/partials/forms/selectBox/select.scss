@@ -1,0 +1,93 @@
+.select--block{
+  position: relative;
+    i{
+        color: $colour-white;
+        background-color: $colour-black;
+        z-index: 1;
+        height: 100%;
+        right: 0;
+        width: 63px;
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        &:before{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            @include transform(translate(-50%,-50%));
+        }
+    }
+}
+.custom-select-container {
+    position: relative;
+    box-sizing: border-box;;
+  }
+  .custom-select-container * {
+    box-sizing: border-box;
+  }
+  .custom-select-option{
+    height: 47px;
+    color:$colour-black;
+    padding: $spacing-mobile;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: 1px solid $colour-grey-dark;
+    background-color: $colour-white;
+    border-top: none;
+    &:first-child{
+      display: none;
+    }
+    &:hover{
+      color:$colour-white;
+      background: linear-gradient(135deg, $colour-red 0%, $colour-red-dark 100%) 0% 0%;
+      border-color: $colour-red;
+    }
+  }
+  .custom-select-container.is-disabled {
+    opacity: .333;
+  }
+  .custom-select-opener {
+    background-color: $colour-white;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    border:1px solid $colour-grey-dark;
+    height: 54px;
+    position: relative;
+    &:focus{
+        outline:none;
+        background-color: $colour-white;
+    }
+    span{
+      position: absolute;
+      top: 50%;
+      @include transform(translateY(-50%));
+      left: 20px;
+    }
+  }
+  .custom-select-container select {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .custom-select-panel {
+    max-height: 0;
+    transition: max-height .5s ease-out, overflow-y 0.1s 0.5s;
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    z-index: 5;
+    width: 100%;
+  }
+  .custom-select-container.is-open .custom-select-panel {
+    max-height: 10.7em;
+    overflow: hidden;
+  }
+  @media all and (min-width:$screen-md){
+    .custom-select-option{
+      height: 54px;
+    }
+  }
+  

@@ -1,0 +1,22 @@
+.from__check--radio{
+    display: inline-block;
+    margin-right: $spacing-mobile*3;
+    padding-top: 0;
+    .form__checkmark{
+        padding-left: $spacing-mobile*2;
+        span{
+            font-weight: $font-weight-medium;
+            top: 1px;
+        }
+        &:before{
+            width: 23px;
+            height: 22px;
+        }
+        &:after{
+            width: 6px;
+            height: 15px;
+            top: 3px;
+            left: 8px;
+        }
+    }
+}

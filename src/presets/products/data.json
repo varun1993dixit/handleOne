@@ -1,0 +1,280 @@
+{
+    "page":true,
+    "mainTitle":{
+            "tagOne":"h1",
+            "gradientStart": "#26B0B0",
+            "gradientMiddle": "#41EAE3",
+            "gradientEnd": "#00ECF5",
+            "titleText": "Products",
+            "imageSrc":"assets/images/title-img.png",
+            "altText":"title image"
+        },
+        "sliderBar": [
+            {
+                "subtitle": {
+                    "subTitle": "Platform Updates",
+                    "colour": "#F48F27",
+                    "tagFour":"h4"
+                },
+                "teaser": [
+                    {
+                        "title": "January 2020",
+                        "tagSix":"h6",
+                        "href": "#",
+                        "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                        "date": "Nullam tristique ligula nec quam facilisis efficitur. Quisque felis lacus, dapibus id erat vitae, gravida rhoncus augue….",
+                        "image": {
+                            "src": "teaser11.jpg",
+                            "alt": "teaser",
+                            "mediaVideo":true,
+                            "mediaLink":"#"
+                        }
+                    },
+                    {
+                        "title": "December 2019",
+                        "tagSix":"h6",
+                        "href": "#",
+                        "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                        "date": "Nullam tristique ligula nec quam facilisis efficitur. Quisque felis lacus, dapibus id erat vitae, gravida rhoncus augue….",
+                        "image": {
+                            "src": "teaser10.jpg",
+                            "alt": "teaser",
+                            "mediaVideo":true,
+                            "mediaLink":"#"
+                        }
+                    },
+                    {
+                        "title": "November 2019",
+                        "tagSix":"h6",
+                        "href": "#",
+                        "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                        "date": "Nullam tristique ligula nec quam facilisis efficitur. Quisque felis lacus, dapibus id erat vitae, gravida rhoncus augue….",
+                        "image": {
+                            "src": "teaser9.jpg",
+                            "alt": "teaser",
+                            "mediaVideo":true,
+                            "mediaLink":"#"
+                        }
+                    },
+                    {
+                        "title": "January 2020",
+                        "tagSix":"h6",
+                        "href": "#",
+                        "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                        "date": "Nullam tristique ligula nec quam facilisis efficitur. Quisque felis lacus, dapibus id erat vitae, gravida rhoncus augue….",
+                        "image": {
+                            "src": "teaser11.jpg",
+                            "alt": "teaser",
+                            "mediaVideo":true,
+                            "mediaLink":"#"
+                        }
+                    },
+                    {
+                        "title": "December 2019",
+                        "tagSix":"h6",
+                        "href": "#",
+                        "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                        "date": "Nullam tristique ligula nec quam facilisis efficitur. Quisque felis lacus, dapibus id erat vitae, gravida rhoncus augue….",
+                        "image": {
+                            "src": "teaser10.jpg",
+                            "alt": "teaser",
+                            "mediaVideo":true,
+                            "mediaLink":"#"
+                        }
+                    }
+                ]
+            }
+        ],
+        "subTeaser": [
+            {
+                "subtitle": {
+                    "subTitle": "Our Products",
+                    "colour": "#4C0FB9",
+                    "tagFour":"h4"
+                },
+                "teaser": [
+                    {
+                        "title": "Equinox 2.4 & 2.7",
+                        "href": "#",
+                        "date": "",
+                        "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                        "tagSix":"h6",
+                        "image": {
+                            "src": "product5.jpg",
+                            "alt": "teaser",
+                            "mediaVideo":true,
+                            "mediaLink":"#"
+                        },
+                        "linkShow":true,
+                    "linkList":[
+                        {
+                            "href":"#",
+                            "text":"Hardware Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },    
+                        {
+                            "href":"#",
+                            "text":"Back Office Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":" OPS Quick Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":"Marketing POS",
+                            "icon":"las la-cloud-download-alt"
+                        }
+                    ]
+                    },
+                    {
+                        "title": "Clarity",
+                        "href": "#",
+                        "date": "",
+                        "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                        "tagSix":"h6",
+                        "image": {
+                            "src": "product2.jpg",
+                            "alt": "teaser",
+                            "mediaVideo":true,
+                            "mediaLink":"#"
+                        },
+                        "linkShow":true,
+                    "linkList":[
+                        {
+                            "href":"#",
+                            "text":"Hardware Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },    
+                        {
+                            "href":"#",
+                            "text":"Back Office Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":" OPS Quick Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":"Marketing POS",
+                            "icon":"las la-cloud-download-alt"
+                        }
+                    ]
+                    },
+                    {
+                        "title": "T8",
+                        "href": "#",
+                        "date": "",
+                        "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                        "tagSix":"h6",
+                        "image": {
+                            "src": "product3.jpg",
+                            "alt": "teaser",
+                            "mediaVideo":true,
+                            "mediaLink":"#"
+                        },
+                        "linkShow":true,
+                    "linkList":[
+                        {
+                            "href":"#",
+                            "text":"Hardware Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },    
+                        {
+                            "href":"#",
+                            "text":"Back Office Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":" OPS Quick Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":"Marketing POS",
+                            "icon":"las la-cloud-download-alt"
+                        }
+                    ]
+                    },
+                    {
+                        "title": "Equinox MPS",
+                        "href": "#",
+                        "date": "",
+                        "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                        "tagSix":"h6",
+                        "image": {
+                            "src": "product4.jpg",
+                            "alt": "teaser",
+                            "mediaVideo":true,
+                            "mediaLink":"#"
+                        },
+                        "linkShow":true,
+                    "linkList":[
+                        {
+                            "href":"#",
+                            "text":"Hardware Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },    
+                        {
+                            "href":"#",
+                            "text":"Back Office Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":" OPS Quick Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":"Marketing POS",
+                            "icon":"las la-cloud-download-alt"
+                        }
+                    ]
+                    },
+                    {
+                        "title": "T8 Sit Down",
+                        "href": "#",
+                        "date": "",
+                        "linkVideo":"https://www.youtube.com/embed/vK9XjwmseSk",
+                        "tagSix":"h6",
+                        "image": {
+                            "src": "product1.jpg",
+                            "alt": "teaser",
+                            "mediaVideo":true,
+                            "mediaLink":"#"
+                        },
+                        "linkShow":true,
+                    "linkList":[
+                        {
+                            "href":"#",
+                            "text":"Hardware Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },    
+                        {
+                            "href":"#",
+                            "text":"Back Office Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":" OPS Quick Guide",
+                            "icon":"las la-cloud-download-alt"
+                        },
+                        {
+                            "href":"#",
+                            "text":"Marketing POS",
+                            "icon":"las la-cloud-download-alt"
+                        }
+                    ]
+                    }
+                ]
+            }
+        ]
+    
+}

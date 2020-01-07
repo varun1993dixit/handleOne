@@ -1,0 +1,73 @@
+::placeholder{
+    color:$colour-black;
+    opacity: 1;
+}
+input::-ms-clear {
+    display: none;
+}
+.form__input{
+    margin-bottom: $spacing-mobile;
+}
+.form__label{
+    display: block;
+    font-weight: $font-weight-medium;
+    margin-bottom: $spacing-internal/2;
+    @include set-font-size(6);
+}
+.form__input-block{
+    position: relative;
+    i{
+        @include set-font-size(2);
+        position: absolute;
+        top: 50%;
+        @include transform(translateY(-50%));
+        right: $spacing-internal/2;
+        cursor: pointer;
+    }
+}
+.form__control{
+    display: block;
+    width: 100%;
+    border: 1px solid $colour-grey-dark;
+    background-color: $colour-white;
+    height: 54px;
+    padding-left: $spacing-internal/2;
+    padding-right: $spacing-mobile*2;
+    @include set-font-size();
+    font-family: $font-family-body;
+    border-radius: 0;
+    box-shadow: none;
+    &:focus{
+        outline:none;
+    }
+}
+.form__invalid-input{
+    color: $colour-red;
+    display: none;
+}
+@media all and (min-width:$screen-md){
+    .form__control{
+        padding-right: $spacing-tablet*2;
+    }
+}
+@media all and (min-width:$screen-lg){
+    .form__input{
+        margin-bottom: $spacing-desktop;
+    }
+    .form__input-block{
+        i{
+            right: $spacing-internal;
+        }
+    }
+    .form__control{
+        padding-right: $spacing-tablet*2;
+    }
+}
+@media all and (min-width:$screen-xl){
+    .form__input-block{
+        margin-bottom: $spacing-internal/5;
+    }
+    .form__input{
+        margin-bottom: $spacing-internal;
+    }
+}

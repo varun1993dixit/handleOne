@@ -1,0 +1,181 @@
+{   
+    "page":true,
+    "mainTitle": {
+            "tagOne":"h1",
+            "gradientStart": "#00435D",
+            "gradientMiddle": "#239926",
+            "gradientEnd": "#8ADF00",
+            "titleText": "News & Info"
+        },
+    "sliderBar": [
+        {
+            "subtitle": {
+                "subTitle": "SG Gaming News",
+                "colour": "#4C0FB9",
+                "tagFour":"h4"
+            },
+            "teaser": [
+                {
+                    "title": "UK CEO Phil Horne talks about the impact of April’s implementation of £2 stakes",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "teaser1.jpg",
+                        "alt": "teaser"
+                    }
+                },
+                {
+                    "title": "Club 300 Builds On Scientific Games Partnership",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "teaser2.jpg",
+                        "alt": "teaser"
+                    }
+                },
+                {
+                    "title": "Scientific Games Completes Equinox Roll-out Across Ladbrokes Coral Estate",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "teaser3.jpg",
+                        "alt": "teaser"
+                    }
+                },
+                {
+                    "title": "SG Gaming makes its mark on Grosvenor Casinos",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "teaser4.jpg",
+                        "alt": "teaser"
+                    }
+                },
+                {
+                    "title": "UK CEO Phil Horne talks about the impact of April’s implementation of £2 stakes",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "teaser1.jpg",
+                        "alt": "teaser"
+                    }
+                }
+            ]
+        },
+        {
+            "subtitle": {
+                "subTitle": "SG Industry News",
+                "colour": "#F48F27",
+                "tagFour":"h4"
+            },
+            "teaser": [
+                {
+                    "title": "UK CEO Phil Horne talks about the impact of April’s implementation of £2 stakes",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "teaser5.jpg",
+                        "alt": "teaser"
+                    }
+                },
+                {
+                    "title": "UK CEO Phil Horne talks about the impact of April’s implementation of £2 stakes",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "teaser6.jpg",
+                        "alt": "teaser"
+                    }
+                },
+                {
+                    "title": "UK CEO Phil Horne talks about the impact of April’s implementation of £2 stakes",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "teaser7.jpg",
+                        "alt": "teaser"
+                    }
+                },
+                {
+                    "title": "UK CEO Phil Horne talks about the impact of April’s implementation of £2 stakes",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "teaser8.jpg",
+                        "alt": "teaser"
+                    }
+                },
+                {
+                    "title": "UK CEO Phil Horne talks about the impact of April’s implementation of £2 stakes",
+                    "href": "#",
+                    "date": "19/02/2019 : 09:05 AM",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "teaser1.jpg",
+                        "alt": "teaser"
+                    }
+                }
+            ]
+        }
+    ],
+    "subTeaser": [
+        {
+            "subtitle": {
+                "subTitle": "Useful Information",
+                "colour": "#7CD605",
+                "tagFour":"h4"
+            },
+            "teaser": [
+                {
+                    "title": "Key Contacts",
+                    "href": "#",
+                    "date": "",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "teaser1.jpg",
+                        "alt": "teaser"
+                    }
+                },
+                {
+                    "title": "Responsible Gambling",
+                    "href": "#",
+                    "date": "",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "teaser2.jpg",
+                        "alt": "teaser"
+                    }
+                },
+                {
+                    "title": "SG Brochure",
+                    "href": "#",
+                    "date": "",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "teaser3.jpg",
+                        "alt": "teaser"
+                    }
+                },
+                {
+                    "title": "Terms & Conditions",
+                    "href": "#",
+                    "date": "",
+                    "tagSix":"h6",
+                    "image": {
+                        "src": "teaser4.jpg",
+                        "alt": "teaser"
+                    }
+                }
+            ]
+        }
+    ]
+}

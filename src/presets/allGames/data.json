@@ -1,0 +1,854 @@
+{
+    "page":true,
+    "mainTitle": {
+            "tagOne":"h1",
+            "gradientStart": "#DD007C",
+            "gradientMiddle": "#FF3122",
+            "gradientEnd": "#FFBB00",
+            "titleText": "Games & Marketing",
+            "imageSrc":"assets/images/teaser-alt1.png",
+            "altText":"title image"
+        },
+    "autosuggest": [
+        {
+            "buttons": {
+                "text": "Search",
+                "link": "#"
+            },
+            "placeholder": "Search for Games…",
+            "type": "text",
+            "icon": "la la-search"
+        }
+    ],
+    "buttonFilter":{
+        "text":"Filters",
+        "link":"/"
+    },
+    "select": [
+        {
+            "label": "Type",
+            "placeholder": "",
+            "type": "text",
+            "message": "",
+            "options": [
+                "All Types",
+                "Type1",
+                "Type2",
+                "Type3"
+            ],
+            "icon": "la la-angle-down"
+        },
+        {
+            "label": "Category",
+            "placeholder": "",
+            "type": "text",
+            "message": "",
+            "options": [
+                "All Categories",
+                "Type1",
+                "Type2",
+                "Type3"
+            ],
+            "icon": "la la-angle-down"
+        }
+    ],
+    "subtitle": {
+        "subTitle": "All Games",
+        "colour": "#4C0FB9",
+        "tagFour":"h4"
+    },
+    "teaser": [                
+        {
+            "title": "88 Fortunes",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game1.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Action Bank",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game2.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Action Stax",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game3.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Africa Untamed",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game4.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Frootastic",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game5.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Legends of Big Foot",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game6.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Blank Knight",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game7.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Boogie Nights",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game8.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Burn’em Up",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game9.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Crown Gems",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game10.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Ding Dong Bella",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game11.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Elvis Top 20",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game12.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Emperor’s Treasure",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game13.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Everybody Salsa",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game14.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Fortune Favours",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "fortune.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Fu Dao Le",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game16.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Gold Rush Dynamite Deluxe",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game17.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Grease",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "grease.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Heidi’s Bier Haus",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game19.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Hercules High & Mighty",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "hercules.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Himalayas Roof Of The World",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game21.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Hula Hula Nights",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game22.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Excalibur’s Choice",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "game23.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        },
+        {
+            "title": "Inca Hoots",
+            "href": "#",
+            "date": "",
+            "tagSix":"h6",
+            "image": {
+                "src": "hoot.jpg",
+                "alt": "teaser"
+            },
+            "linkShow":true,
+            "linkList":[
+                {
+                    "href":"#",
+                    "text":"Hardware Guide",
+                    "icon":"las la-cloud-download-alt"
+                },    
+                {
+                    "href":"#",
+                    "text":"Back Office Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":" OPS Quick Guide",
+                    "icon":"las la-cloud-download-alt"
+                },
+                {
+                    "href":"#",
+                    "text":"Marketing POS",
+                    "icon":"las la-cloud-download-alt"
+                }
+            ]
+        }
+    ]
+}

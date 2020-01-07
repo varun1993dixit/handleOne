@@ -1,0 +1,28 @@
+.all-events{
+    padding: $spacing-mobile $spacing-mobile 0;
+    background-color: $colour-white;
+    .subtitle{
+        margin-bottom: $spacing-internal/4;     
+        .heading-four{
+            background-color: $colour-white;
+        }   
+    }
+    .event{
+        + .subtitle{
+            margin-top: $spacing-mobile;
+        }
+    }
+}
+@media all and (min-width:$screen-xl){
+    .all-events{
+        padding: $spacing-internal $spacing-large 0; 
+        .subtitle{
+            margin-bottom: $spacing-internal/2;
+        }
+        .event{
+            + .subtitle{
+                margin-top: $spacing-internal;
+            }
+        }
+    }    
+}

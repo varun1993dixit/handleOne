@@ -1,0 +1,110 @@
+.slider-wrap--updates{
+    .heading-six{
+        font-weight: $font-weight-medium;
+    }    
+    .teaser__detail{
+        .heading-six{
+            @include set-font-size(14);
+        }
+        span{
+            opacity: 1;
+        }
+    }
+    .tns-controls{
+        button{
+            top: 64px;
+        }
+    }
+}
+.slider-wrap--products{
+    .teaser-wrap{
+        margin-top: 0;
+    }
+}
+@media all and (min-width:$screen-sm){
+    .slider-wrap--updates{
+        .teaser{
+            width: 344px;
+        }
+        .tns-controls{
+            button{
+                top: 83px;
+            }
+        }
+    }
+    .slider-wrap--products{
+        .teaser-wrap{
+            @include justify-content(flex-start);
+            margin-right: -$spacing-large/2;
+            margin-left: -$spacing-large/2;
+            .teaser{
+                width: 374px;
+                padding-right: $spacing-large/2;
+                padding-left: $spacing-large/2;
+            }
+        }
+    }
+}
+@media all and (min-width:$screen-md){
+    .slider-wrap--updates{
+        .teaser{
+            width: 294px;
+        }
+        .tns-controls{
+            button{
+                top: 71px;
+            }
+        }
+    }
+    .slider-wrap--products{
+        .teaser-wrap{
+            .teaser{
+                width: 320px;
+            } 
+        }
+    }
+}
+@media all and (min-width:$screen-lg){
+    .slider-wrap--updates{
+        .teaser{
+            width: 304px;
+        }
+        .teaser__detail{
+            padding: $spacing-large;
+        }
+        .tns-controls{
+            button{
+                top: 76px;
+            }
+        }
+    }
+    .slider-wrap--products{
+        .teaser-wrap{
+            .teaser{
+                width: 331px;
+            } 
+        }
+    }
+}
+@media all and (min-width:$screen-xl){
+    .slider-wrap--updates{
+        .teaser{
+            width: 496px;
+        }
+        .teaser__detail{
+            min-height: 128px;
+        }
+        .tns-controls{
+            button{
+                top: 125px;
+            }
+        }
+    }
+    .slider-wrap--products{
+        .teaser-wrap{
+            .teaser{
+                width: 365px;
+            }
+        }
+    }
+}

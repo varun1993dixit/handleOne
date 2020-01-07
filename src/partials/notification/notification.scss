@@ -1,0 +1,31 @@
+.notification{
+    position: relative;
+    @include display-flex();
+    @include align-items(center);
+    padding: $spacing-mobile;
+    border-bottom: 1px solid $colour-grey-dark;
+    .listing__text--title{
+        margin-right: 0;
+    }
+}
+.notification__icon{
+    i{
+        @include set-font-size(8);
+    }
+}
+.arrow-link{
+    position: absolute;
+    top: 50%;
+    @include transform(translatey(-50%));
+    right: 0; 
+    i{
+        @include set-font-size(8);
+        color: $colour-black;
+    }
+}
+@media all and (min-width:$screen-xl){
+    .notification{
+        padding-top: $spacing-internal;
+        padding-bottom: $spacing-desktop;
+    }
+}

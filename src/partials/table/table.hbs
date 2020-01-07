@@ -1,0 +1,36 @@
+<div class="table">
+    {{#tableData}}
+    <div class="table__row">
+        <div class="table__head">
+            <div class="table__th table__th--option">{{thOption}}</div>
+            <div class="table__th table__th--title">{{thShop}}</div>
+            <div class="table__th table__th--brand">{{thCustomer}}</div>
+            <div class="table__th table__th--select">{{thType}}</div>
+            <div class="table__th table__th--select">{{thValue}}</div>
+        </div>
+        <div class="table__col table__col--option">
+            <div class="table__th">{{thOption}}</div>
+            <div class="table__td">{{>forms/checkbox/checkbox}}</div>
+        </div>
+        <div class="table__col table__col--title">
+            <div class="table__th">{{thShop}}</div>
+            <div class="table__td table__td--shop"><span>{{shopState}}</span><span>{{shopPin}}</span></div>
+        </div>
+        <div class="table__col table__col--brand">
+            <div class="table__th">{{thCustomer}}</div>
+            <div class="table__td"><span>{{customerBrand}}</span></div>
+        </div>
+        <div class="table__col table__col--select">
+            <div class="table__th">{{thType}}</div>
+            <div class="table__td">{{>forms/selectBox/select selectType}}</div>
+        </div>
+        <div class="table__col table__col--select">
+            <div class="table__th">{{thValue}}</div>
+            <div class="table__td">{{>forms/selectBox/select selectValue}}</div>
+        </div>
+    </div>
+    {{/tableData}}
+    <div class="table__link">
+       {{>button/button button}}
+    </div>
+</div>

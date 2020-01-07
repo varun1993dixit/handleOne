@@ -1,0 +1,18 @@
+.social-list{
+    @include display-flex();
+    @include align-items(center);
+    li{
+        margin-right: $spacing-internal/4;
+        &:last-child{
+            margin-right: 0;
+        }
+        a{
+            @include set-font-size(3);
+            color: $colour-white;
+            @include transition(all 0.3s);
+            &:hover{
+                color: $colour-red;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+<div class="file-wrap">
+    <div class="tabs">
+        {{#tabs}}
+            {{>button/button button}}
+        {{/tabs}}
+    </div>
+    <div class="file-wrap__content">
+        {{#fileData}}
+            <div class="file-wrap__document">           
+                {{>subtitle/subtitle subtitle}}
+                {{#document}}
+                    {{>document/document}}
+                {{/document}}            
+            </div>
+        {{/fileData}}
+    </div>
+    <div class="file-wrap__dropzone">
+        {{>dropzone/dropzone dropzone}}
+    </div>
+</div>

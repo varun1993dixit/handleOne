@@ -1,0 +1,30 @@
+{{load this 'presets/feedback'}}
+    <div class="feedback">
+        <a href="{{backLink}}" class="back"><i class="las la-times"></i></a>
+        <form class="feedback__form">
+            <{{tagOne}} class="heading-one">{{feebackTitle}}</{{tagOne}}>
+            <p class="feedback__about">{{paraFirst}}</p>
+            {{#select}}
+               {{>forms/selectBox/select}}
+            {{/select}}
+            {{#inputs}}
+               {{>forms/input/input}}
+            {{/inputs}}
+            {{#textarea}}
+               {{>forms/textarea/textarea}}
+            {{/textarea}}
+            <div class="feedback__check">
+                <p>{{checkPara}}</p>
+            {{#checkboxData}}
+            {{>forms/radio/radio}}
+            {{/checkboxData}}
+            </div>
+            <div class="feedback__botttom">
+                <p>{{paraTwo}}</p>
+                <p>{{paraThree}}</p>
+                {{#buttonFeedback}}
+                {{>button/button}}
+                {{/buttonFeedback}}
+            </div>
+        </form>
+    </div>

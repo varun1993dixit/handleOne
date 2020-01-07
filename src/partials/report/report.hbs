@@ -1,0 +1,20 @@
+<div class="report">
+    <div class="report__menu">
+        {{>subtitle/subtitle reportTitle}}
+        {{>sideMenu/sideMenu}}
+    </div>
+    <div class="report__file">
+        <span class="report__close"><i class="las la-times"></i></span>
+        {{>subtitle/subtitle fileTitle}}
+        <p class="report__text">{{reportPara}}</p>
+        {{#document}}
+            {{>document/document}}
+        {{/document}}   
+        <div class="file-title">
+            <{{tagSix}} class="heading-six">{{archiveTitle}}</{{tagSix}}>
+        </div>
+        {{#documentArchive}}
+            {{>document/document}}
+        {{/documentArchive}}
+    </div>
+</div>

@@ -1,0 +1,17 @@
+{{load this 'partials/footer'}}
+<footer class="footer ">
+    <div class="container">
+        <div class="footer__content">
+            <ul class="footer__list">
+                {{#footerr}}
+                <li>  
+                {{>formLinks/formLinks}}
+                </li>
+                {{/footerr}}
+            </ul>
+            {{#footerText}}
+            <span>{{>title/title}}</span>
+            {{/footerText}}
+        </div>
+    </div>
+</footer>

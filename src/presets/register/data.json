@@ -1,0 +1,85 @@
+{
+    "banner":{
+        "alt":"banner",
+        "src": "banner-tab.jpg"
+    },
+    "tagOne":"h1",
+    "inputs": [
+        {
+            "label": "First Name",
+            "placeholder": "",
+            "type": "text",
+            "message": "",
+            "icon": ""
+        },
+        {
+            "label": "Last Name",
+            "placeholder": "",
+            "type": "text",
+            "message": "",
+            "icon": ""
+        },
+        {
+            "label": "Company Name",
+            "placeholder": "",
+            "type": "text",
+            "message": "",
+            "icon": ""
+        },
+        {
+            "label": "Email Address",
+            "placeholder": "",
+            "type": "email",
+            "message": "",
+            "icon": ""
+        }
+    ],
+    "buttons": [
+        {
+            "text": "Register",
+            "gradientStart": "#ED1D45",
+            "gradientEnd": "#B8122C",
+            "link":"#"
+        }
+    ],
+    "title": "Register",
+    "account": [
+        {
+            "register": "Login",
+            "tagSix":"h6",
+            "accountDetail":[
+                {
+                    "accountText": "Already have an account?",
+                    "text": "Login",
+                    "link":{
+                        "text":"login",
+                        "href":""
+                    } 
+                }
+            ]
+           
+        } 
+    ],
+    "select": [
+        {
+            "label": "Sector",
+            "placeholder": "",
+            "type": "text",
+            "message": "",
+            "options": [
+                "",
+                "value1",
+                "value2"
+            ],
+            "icon": "la la-angle-down"
+        }
+    ],
+    "checkbox": {
+        "text": "tick mark",
+        "para":"By submitting your information you consent to SG Gaming processing your personal data in line with our privacy policy. View our",
+        "link":{
+            "text":"terms of use.",
+            "href":"#"
+        }
+    }
+}

@@ -1,0 +1,119 @@
+{
+    
+    "page": true,
+    "mainTitle": {
+            "tagOne":"h1",
+            "gradientStart": "#DD007C",
+            "gradientMiddle": "#FF3122",
+            "gradientEnd": "#FFBB00",
+            "titleText": "All Bulletins"         
+        },
+    "allBulletin": [
+        {   
+            "bulletinLink":"#",
+            "bulletin": {
+                
+                "image": {
+                    "src": "listing1.png",
+                    "alt": "bulletin"
+                },                
+                "listingData": {
+                    "tagFive":"h5",
+                    "title": "Quisque mattis tellus et neque varius, porttitor ultrices dui viverra",
+                    "author": "John Smith",
+                    "dateTime": "19/02/2019 : 09:05 AM"
+                }
+            }
+        },
+        {
+            "bulletinLink":"#",
+            "bulletin": {
+                "image": {
+                    "src": "listing3.png",
+                    "alt": "bulletin"
+                },
+                "listingData": {
+                    "tagFive":"h5",
+                    "title": "Quisque mattis tellus et neque varius, porttitor ultrices dui viverra",
+                    "author": "John Smith",
+                    "dateTime": "19/02/2019 : 09:05 AM"
+                }
+            }
+        },
+        {
+            "bulletinLink":"#",
+            "bulletin": {
+                "image": {
+                    "src": "listing2.png",
+                    "alt": "bulletin"
+                },
+                "listingData": {
+                    "tagFive":"h5",
+                    "title": "Quisque mattis tellus et neque varius, porttitor ultrices dui viverra",
+                    "author": "John Smith",
+                    "dateTime": "19/02/2019 : 09:05 AM"
+                }
+            }
+        },
+        {
+            "bulletinLink":"#",
+            "bulletin": {
+                "image": {
+                    "src": "listing1.png",
+                    "alt": "bulletin"
+                },
+                "listingData": {
+                    "tagFive":"h5",
+                    "title": "Quisque mattis tellus et neque varius, porttitor ultrices dui viverra",
+                    "author": "John Smith",
+                    "dateTime": "19/02/2019 : 09:05 AM"
+                }
+            }
+        },
+        {
+            "bulletinLink":"#",
+            "bulletin": {
+                "image": {
+                    "src": "listing3.png",
+                    "alt": "bulletin"
+                },
+                "listingData": {
+                    "tagFive":"h5",
+                    "title": "Quisque mattis tellus et neque varius, porttitor ultrices dui viverra",
+                    "author": "John Smith",
+                    "dateTime": "19/02/2019 : 09:05 AM"
+                }
+            }
+        },
+        {
+            "bulletinLink":"#",
+            "bulletin": {
+                "image": {
+                    "src": "listing2.png",
+                    "alt": "bulletin"
+                },
+                "listingData": {
+                    "tagFive":"h5",
+                    "title": "Quisque mattis tellus et neque varius, porttitor ultrices dui viverra",
+                    "author": "John Smith",
+                    "dateTime": "19/02/2019 : 09:05 AM"
+                }
+            }
+        },
+        {
+            "bulletinLink":"#",
+            "bulletin": {
+                "image": {
+                    "src": "listing1.png",
+                    "alt": "bulletin"
+                },
+                "listingData": {
+                    "tagFive":"h5",
+                    "title": "Quisque mattis tellus et neque varius, porttitor ultrices dui viverra",
+                    "author": "John Smith",
+                    "dateTime": "19/02/2019 : 09:05 AM"
+                }
+            }
+        }
+    ]
+}

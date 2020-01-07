@@ -1,0 +1,71 @@
+{
+    "page":true,
+    "backLink":"homepage",
+    "feebackTitle":"Feedback",
+    "tagOne":"h1",
+    "paraFirst":"SG Gaming is committed to improving our products, services and wider business support and we appreciate your feedback. Please use the form to send any comments you may have as a customer of SG Gaming. We read all feedback carefully and if you require a direct response to your feedback, please tick the box below.",
+    "select": [
+        {
+            "label": "I have feedback about",
+            "placeholder": "",
+            "type": "text",
+            "message": "",
+            "options": [
+                "",
+                "value1",
+                "value2"
+            ],
+            "icon": "la la-angle-down"
+        }
+    ],
+    "inputs": [
+        {
+            "label": "Subject",
+            "placeholder": "",
+            "type": "text",
+            "message": "",
+            "icon": ""
+        }
+    ],
+    "textarea": [
+        {
+            "label": "Comments",
+            "placeholder": "",
+            "message": "",
+            "icon": ""
+        }
+    ],
+    "checkPara":"Do you require a direct response from SG Gaming?",
+    "checkboxData":[
+        {
+            "checkbox":{
+            "text": "tick mark",
+            "para":"Yes",
+            "radioName":"choice",
+            "link":{
+                "text":"",
+                "href":""
+            }
+            }
+        },
+        {
+            "checkbox":{
+            "text": "tick mark",
+            "para":"No",
+            "radioName":"choice",
+            "link":{
+                "text":"",
+                "href":""
+            }
+            }
+        }
+    ],
+    "paraTwo":"Please allow 5 working days for a member of our team to respond.",
+    "paraThree":"You will receive a copy of your feedback for your records. We appreciate all feedback and your Account Manager will be in touch accordingly to address your comments.",
+    "buttonFeedback": [
+        {
+            "text": "Submit Feedback",
+            "link":"#"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "banner":{
+        "alt":"banner",
+        "src": "banner-tab.jpg"
+    },
+    "tagOne":"h1",
+    "inputs":[
+     {
+        "label": "Email Address",
+        "placeholder": "",
+        "type": "email",
+        "message":"Invalid Email Address",
+        "icon":"las la-envelope"
+    },
+     {
+        "label": "Password",
+        "placeholder": "",
+        "type": "password",
+        "message":"Login Failed. Password or Email address is incorrect",
+        "icon":"las la-eye"
+    }],
+    "buttons":[{
+        "text":"Login",
+        "gradientStart":"#ED1D45",
+        "gradientEnd":"#B8122C",
+        "link":"#"
+    }],
+    "formLinks":[{
+        "text":"Forgotten Password?",
+        "href":"reset"
+    }],
+    "title":"Login",
+    "account":[{
+        "register":"Need to register?",
+        "tagSix":"h6",
+        "accountDetail":[
+            {
+                "accountText":"If you don't have an account, please", 
+                "link":{
+                    "text":"register here",
+                    "href":"register"
+                }
+            }
+        ]       
+     }
+    ]
+}
